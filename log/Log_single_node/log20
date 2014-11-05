@@ -1,0 +1,6027 @@
+{
+	"query": {
+		"filtered": {
+			"query": {
+				"query_string": {
+					"query": "*J*"
+				}
+			}
+		}
+	},
+	"fields": [ "user", "timestamp"
+	],
+	"from": 0,
+	"size": 2000,
+	"sort": {
+		"_score": {
+			"order": "asc"
+		}
+	},
+	"explain": true
+}
+Query took 3.866706243s
+elastigo.SearchResult
+Number of search result: 2000
+John Luzar
+Jason Williams
+Jessie Nguyen
+Celsa James
+Tameka Johnson
+Jeffrey Merritt
+Jonathan Waterman
+Jacqueline Kennell
+Jerry Hughes
+Jennifer Ratliff
+John Elliott
+Julia Smith
+Jennifer Thompson
+Jane Walls
+Jody Armstrong
+James Holt
+Karen Jarvis
+Jody Thomas
+Marjorie Ogden
+James Cuesta
+Mary Naranjo
+Joshua James
+Andrew Jordan
+Kyle Jones
+Jocelyn Peterson
+Jenny Harris
+Jacqueline Garcia
+Joanne Caldwell
+Nannie Jastrebski
+Jesus Tews
+John Kennedy
+John Martin
+Johnathan Deloatch
+Jeffrey Puga
+Mary Jeffery
+Lois Johann
+Jospeh Murphy
+Jonathan Jacoby
+John Pope
+Joshua Scott
+Herbert Jenkins
+Jesus Madrigal
+Jenelle Rork
+Jessica Elwell
+Jenny Peppers
+Patty Johnson
+Jo Dellavalle
+Jose Patterson
+John Macko
+Johnny Henderson
+Jeannetta Foreman
+James Oden
+Jess Brooks
+Brendan Jean
+Alvin Jenkins
+Jennifer Stubbs
+Martin Johnson
+John Ichikawa
+Jerome Thomas
+James Blevins
+Iris Johnson
+Jennifer Fitzhugh
+Judy Walker
+Jesus Gonzalez
+Lori Jenkins
+Jewel Pitts
+Jose Cooke
+Jessie Rhodes
+John Boudreau
+James Monopoli
+Irma Johnson
+Jason Simmons
+John Bourgeois
+Jennifer Gregg
+Joycelyn Casey
+Jimmy Temple
+Alejandro Vessell
+Jerrod Folta
+Yolanda Jones
+Mary Jones
+Jack Pardo
+Jason Williams
+James Leclair
+Joseph Beasley
+Jerry Best
+James Thomas
+Judy Gomez
+Benjamin Whitley
+Thomas Jozwiak
+Jayme Taylor
+Jo Boatman
+John Horning
+Elizabeth Jethva
+Debra Jackson
+Charlotte Jones
+Roy Mejia
+Jessica Martinez
+Jonathan Croft
+John Swoager
+Janice Fanning
+Judith Burton
+Jim Talley
+John Baker
+Rosie Jewell
+James Paquette
+Vicki Johnson
+John Decker
+Richard Johnston
+Johnson Grover
+Joshua Ybarra
+Karrie Andrzejewski
+Jeanette Hood
+Dexter Johnson
+John Rhoades
+John Clemon
+Jennifer Bond
+Bradley Jerry
+Felicia Johnson
+John Vinson
+Juan Brown
+Joshua Letchworth
+David Jones
+John Hegg
+Sherry Jessie
+Gary Jimenez
+James Chiarini
+Joy Mcinnis
+Jonathan Rice
+Carol Johnson
+Kyle Jarrett
+Jenna Muske
+Linette James
+John Gonzalez
+Mark Jackson
+James Perry
+John Grider
+Jesse Zolezzi
+Janae Green
+Randall Jones
+Benjamin Barker
+James Joyce
+Patrick Jackson
+James Joyner
+James Cook
+Rebecca Juarez
+James Winston
+Jessica Macpherson
+Judith Schepens
+John Russell
+Joseph Peters
+Jason Hughes
+John Bush
+Marjorie Walker
+William Jahns
+Clara Judge
+Steven Jackson
+John Scroggins
+Jonathan Lareau
+June Kelly
+Jason Johnson
+Juan White
+Clinton Janas
+Jennifer Wilson
+Jeffery Bailey
+Jennifer Azcona
+Jim Strong
+Jack Young
+Joyce Black
+John Lavoie
+Geraldine Jackson
+Jacqueline Singleton
+Jacqueline Finke
+Joy Spivey
+Julia Baltazar
+Justin Murdoch
+Jacqueline Mcginty
+Nancy Jensen
+Jacob Terrell
+Jeffrey Evans
+Jerry Cote
+Jack Love
+James Toler
+Joshua Dematteo
+Jennifer Mullins
+Jannie Thompson
+John Orr
+Jacob Funderburg
+Mary Jennings
+James Sanderson
+Carl Jensen
+Judith Merchant
+Josefa Williams
+Jared Vanoy
+Jeffery Hoerner
+Chad Jordan
+Christopher Menjivar
+Jeremiah Cobb
+Jeanette Latigo
+Joan Ogrodowicz
+John Hysmith
+Helen Joseph
+Janet Buchauer
+Jonathan Boles
+Maria Johnson
+Julia Eure
+Jeanne Banks
+Maya Johnson
+John Sumner
+Jermaine Moore
+Jesus Jessup
+Jimmy Shirley
+Julie Okeefe
+Jesica Phillips
+Joey Mitchell
+Joshua Robledo
+Joshua Kimball
+Judy Nichols
+Joel Mitchell
+Jennifer Unger
+Joe Scorgie
+Jackson Contreras
+James Wise
+Jason Salzman
+Lilian James
+Jasmin Wiley
+Jose White
+Jasmine Hutchinson
+Jennifer Nye
+John Faines
+June Matthew
+Carolyn Johnson
+Jimmy Stephens
+Jacqueline Kelley
+Jill Bates
+Benjamin Lee
+Alexis Johnson
+Barbara Johnson
+Josie Nevarez
+Chris Jack
+Barbara Jones
+Joseph Campbell
+Alejandro Nolan
+Luella Jarman
+Andrew Jensen
+Joann Klarich
+Janet Strickland
+Sara Jennings
+Jack Dedic
+John Bagwell
+James Mcneely
+Samantha Jackson
+Benjamin Angulo
+Jason Rohrbaugh
+Jeanne Wolfe
+Julie Figueroa
+Doris Jethva
+June Wolfe
+Jimmie Vasher
+Janna Valencia
+Jonathan White
+Jared Hellinger
+John Walker
+Jesse Renard
+John Smith
+Jimmie Brown
+Jennifer Gordon
+Jesse Turner
+Jack Moss
+Amanda Jackman
+Michael Jacobs
+Josefa Schmidt
+Julian Reny
+Jason Smith
+Jon Ruiz
+Miriam Jenkins
+Buford Johnson
+Joan Adam
+Julie Holmes
+Justin Massey
+James Littlefield
+Jose Brown
+Jefferson Gooden
+Melissa Raheja
+Jonathan Claeys
+Justin Ledoux
+Justin Sokolowich
+Jack Daniels
+Mike Jeanette
+Brian Johnson
+Jamie Forrest
+Joseph Harrison
+James Schenk
+Jessie Gilliard
+Jo Salgado
+Robert Judkins
+James Kimbrough
+Jason Ho
+Antonette Johnson
+Jeffrey Larkin
+John Walsh
+Marin Joiner
+Jason Shook
+Joanne Gonzalez
+Julie Johnson
+Joyce Gentry
+June Mcgowan
+Jesse Garrett
+Janet Tatar
+Jon Roehm
+John Aponte
+James Walston
+Kenneth Johnson
+John Alley
+Jon Grover
+Jonathan Hughes
+Johnathan Evans
+Jennifer Mele
+Marjorie Sekel
+Jamie Bowling
+Julian Perry
+Robert Jervey
+John Ortega
+James Cooper
+Joel Hairfield
+James Allen
+Juan Houston
+Jack Whitten
+James Swisher
+James Clapper
+John Kirby
+James Mcclain
+Michael Stjohn
+Jessica Lomanto
+Jeffrey Travis
+Mary Johnson
+Jeremy Epperson
+Preston Dejesus
+James Momphard
+Betty Johnson
+Marina Johnson
+Joann Jack
+James Wildman
+Robert Jones
+Jenifer Godwin
+Jolynn Jay
+Jennifer Flynn
+Jason Pridgen
+Joan Heim
+Jamie Armstrong
+Judy Jenson
+Lynette Jennings
+Joan Schamp
+James Robinson
+Johanna Edmonds
+James Rossetti
+John Asberry
+Julie Bates
+Joel Thomas
+Joseph Bernier
+Bernadette Johnson
+Jamie Boyd
+Jean Shelby
+James Dickerson
+Mary Jarrard
+Joy Kendrick
+Perry Jackson
+Marilyn Jones
+Jesus Brummett
+John Macdonald
+Robert John
+Julie Lynch
+Debra Jeschke
+John Luster
+Jane Boykin
+Jack Yuen
+James Alexander
+Maria Jansen
+Jose Chestnut
+Joe Seto
+Joline Ashby
+Janet Baer
+John Hampton
+Johnathan Allen
+Jeri Russel
+Shirley Johnson
+Johnny Alston
+Julie Hartrick
+Joseph Higman
+Jena Boyer
+Jean Payne
+Kevin Johnson
+James Bernd
+James Mainolfi
+Jason Lipscomb
+Johnny Cromwell
+James Huynh
+Jennifer Rudd
+Johnny Frazier
+James Swanson
+Ruben Johnson
+Joseph Epps
+John Hamer
+Michael Jones
+Joseph Meekins
+Josephine Leone
+John Drexler
+Jennifer Andrews
+Joe Hornsby
+Jennifer Loucks
+Barbara Johnson
+Judy Oleary
+Douglas Jennings
+Charles Jabbie
+James Moore
+Justin Kappel
+Jerry Krul
+Thomas Johnson
+James Benson
+Jill Price
+James Price
+Jean Vela
+Juli Jones
+James Stewart
+Jose Silva
+Jonathan Mcilhinney
+John Eber
+Jose Loftis
+Elijah Lewis
+Justine Granillo
+Donald Jones
+John Bullock
+Jorge Tyler
+Jamie Budde
+Jacqueline Jenkins
+Janie Fraser
+John Traino
+James Carter
+Jamie Barnes
+Marjorie Motley
+John Dunn
+Jessica Brown
+Janis Ross
+Jorge Mast
+Jessica Westberry
+Janet Noland
+Jacqueline Cooke
+Robert Jordan
+Jan Ward
+John Good
+John Simpson
+Joel Ryan
+Johnny Fann
+Brenda Jamerson
+Joseph Glass
+Kirstie Jones
+Joe Shin
+Johnny Adams
+Catherine Jeremiah
+James Ray
+John Mccarthy
+Johnny Robinson
+Joseph Lachenauer
+Jennifer Castro
+Albert Jacobson
+James Hernandez
+Genoveva Jackson
+Judy Crumbley
+Jonathan Williamson
+James Baham
+Jennifer Salvador
+Jamie Polley
+Juanita Dyer
+Jennifer Zuber
+Jason March
+James King
+John Howell
+James Mullinax
+John Maxwell
+Josefina Matos
+Carol Jones
+Jerry Sandoval
+Melanie Mojica
+Juan Harris
+John Keiper
+Joseph Doverspike
+Joanna Clark
+James Torres
+Jennifer Thompson
+Jane Lawson
+Joshua Woodhouse
+Jennie Harvey
+Julie Welty
+Jack Mcwilliams
+Joshua Gonzalez
+Harold Jackson
+James King
+Alejandrina Simpson
+Jeremy Mctiernan
+Benjamin Zaragoza
+Joe Frein
+Susan Jones
+Jimmy Westphal
+Jerome Mitchell
+Jason Wignall
+John Smith
+Jonathan Pizarro
+Joseph Milligan
+Jennifer Mcgrew
+Johnnie Chavez
+James Minyard
+Janet Rilley
+Joe Williams
+Jacob Sliz
+Julie Calhoun
+Joe Williams
+Jennifer Griffith
+Joseph Brewer
+Juan Webster
+John Irons
+Jeffrey Gonzalez
+Jose Francis
+Jeramy Harshbarger
+Jean Ladd
+Jane Harding
+James Barajas
+Joseph Marvin
+Paulina Jamieson
+James Hooks
+Joseph Tipps
+Jody Mccord
+Johnny Marchiori
+Jane Reny
+Joe Nestle
+John Ryan
+Julia Swartz
+Jim Carmack
+Lucilla Jaramillo
+Janelle Kolter
+Jennie Temblador
+James Murry
+Jeffrey Ridley
+David Barajas
+Julie Parker
+Jennifer Stewart
+Jose Anderson
+Jason Olsen
+Juanita Quarles
+Johnny Morgan
+Joseph Shumaker
+Kum Jackson
+Alice Jacobson
+Joyce Bishop
+Jane Wright
+Judith Coker
+James Dudley
+Joseph Robbins
+Jessica Jones
+Jason Yerkovich
+Johnny Roberts
+James Herzig
+James Erickson
+Janet Lovato
+Jorge Hansen
+John Johnson
+Julianne Longoria
+Jennie Authement
+Tonja Addison
+David Jeffries
+Jessica Dukich
+Jennifer Franco
+Lucia Jones
+James Stien
+Jonas Karnes
+Wade Jacobsen
+Janet Thompson
+Benjamin Honeycutt
+Ruth Jenkins
+Johnie Carr
+Jay Kenney
+James Meyer
+Joseph Griffin
+Joseph Cross
+Jordan Knight
+Joann Graham
+John Wilson
+Joann Barstow
+Jerry Dailey
+Jan Hubbard
+Jacqueline Mcdaniel
+Laurie Jackson
+John Martin
+James Bourgeois
+Charles Johnson
+Jeremy Bishop
+John Vaughn
+Marvin Majors
+Jack Skinner
+Maria Johnson
+Joan Stoops
+Irvin Arujo
+Marjorie Cone
+Debra Johnson
+Joan Moore
+James Sours
+Juanita Pearce
+John Morrison
+Wanda Johnson
+John Reiland
+Jannie Chick
+Jose Martin
+Jerry Merritt
+Justin Hylton
+Janet Lynch
+Jessica Absher
+John Smith
+Justin Mckinney
+John Fernandez
+Jason Aragon
+John Miranda
+Johnny Coleman
+Jeanette Lester
+Joseph Williams
+Jill Williams
+Kimberely Jong
+Natasha Johnson
+Jessica Mayer
+Jennifer Mccullough
+Margaret Johnson
+Carmen Johnson
+Janice Bailey
+Jacob Mcclain
+John Peterson
+Joseph Cockerill
+Jose Proctor
+Desiree Turja
+James Kautz
+Jared Depew
+Joyce Scott
+James Armijo
+Juan Roberts
+Johnny Maxey
+Joseph Pfeiffer
+Jeffrey Emberling
+Jessie Drew
+Jacqueline Dadson
+Jesus Niemczyk
+James Yamamoto
+Janette Cano
+Janie Hier
+Jill Blair
+James Ruhland
+Joseph Dugan
+Julie Page
+Jerry Biderman
+Jerome Morgan
+Peggy Jennings
+Candace Jacobs
+Joyce Lang
+John Carls
+John Reeves
+Leona Johnson
+Karen Jackson
+John Thacher
+Juan Phares
+Jessie Burns
+Keith Jessee
+Jean Edwards
+Marjorie Bundick
+James Gunderson
+Timothy Johnson
+James Chappell
+Paul Johnson
+Marian Jacobs
+Magdalena Jordan
+Jeffrey Eccles
+Jackie Fair
+Jarred Adams
+Joyce Mosier
+Jean Bonnet
+Jill Vanpelt
+Jonathan Dueno
+John Lipscomb
+Amber Jeter
+Laura Jordan
+Tammy Johnson
+Johnny Herrera
+Gloria Jones
+Joe Hernandez
+Jennifer Regan
+John Smith
+Jordan Jones
+David Jackson
+Jacqueline Combs
+Jennifer Shepard
+Ismael Joseph
+Judi Horrell
+James Eaton
+Dave Jimenez
+Joe Smith
+Elizabeth Johnson
+John Bailey
+Leona Johnson
+Julia Marasco
+Jessica Simila
+James Kenny
+Douglas Johnston
+Joshua Morgan
+James Marquardt
+Stephen Fujioka
+Jennifer Hankin
+Jean Wood
+Joseph Espino
+James Mcclure
+John Bernal
+Jose Billups
+James Severn
+James Weatherspoon
+Joseph Callahan
+John Morales
+Dustin Johnson
+James Feurtado
+Joanne Anderson
+James Squire
+Jenny Stout
+Jason Keith
+Joseph Spearman
+Ophelia Jones
+Jeffrey Flake
+John Mcdowell
+John Manser
+Jason Bartsch
+Judy Mendias
+Jeffrey Pitts
+Jeffrey Buxton
+Jay Gould
+Elizabeth Trajillo
+Oscar Johnson
+Julie Llewellyn
+James Livoti
+Karen Johnson
+James Partch
+Jeannette Tamez
+Jessie Swartz
+Jay Englert
+Joel Rodiguez
+Jane Robertson
+Charlotte Jowers
+Joe Hoefer
+Jamie Smith
+Trina Johnson
+Joseph Goodman
+Jenna Ducksworth
+Joseph Ala
+Jose Williams
+John Franklin
+John Garcia
+Joanne Young
+Juan Melgar
+John Appel
+Judy Riley
+Jeffery Eichmann
+James Carrillo
+Jose Carpenter
+Jeffery Little
+John Colby
+Jacinto Howard
+Jackie Cull
+Jose Cuellar
+John Savage
+Jeffrey Visser
+Benjamin Burkhart
+Joe Ebling
+Tommy Johnson
+Alice Jordan
+Jordan Miller
+Junior Ronin
+John Blankenship
+Joanne Styles
+Juan Lee
+Jeff Roberts
+Julius Sorensen
+Joan Bowers
+John Manzione
+Julie Flint
+John Holden
+James Conn
+John Azar
+Kristina Johnson
+John Wright
+Hortencia Johns
+Belinda Johnson
+John Munoz
+Martha Montijo
+Joyce Gross
+Jane Ross
+James Brown
+Janice Lai
+Jennifer Sullivan
+Janet Rosenbeck
+John Bowers
+James Ragan
+Jermaine Carn
+Julianne Krueger
+James Washington
+Janet Bouknight
+Jeanne Horst
+James Villalpando
+James Nunnally
+James Burke
+James Pender
+Marjorie Ferguson
+Jerome Cooley
+James Freehan
+Joe Gooding
+Jill Williams
+James Crawford
+Juan Moses
+John Rivera
+Joann Welch
+Joshua Aldrege
+James Burke
+John Aveado
+Jessica Ferrusi
+Julia Needham
+Juanita Harrison
+John Toney
+Roy Jackson
+Darin Johnson
+Jill Miller
+Julie Carter
+Jerome Allen
+James Hughes
+Jon Day
+Richard Jones
+Janine Helgason
+James Puleo
+Judy Polanco
+Anthony Jones
+Juanita Dodson
+Judy Franklin
+Jay Hayes
+John Souliere
+Jacob Bailey
+Justin Corbin
+Jane Simpson
+Joan Brennan
+Jonathan Luc
+James Mcmichael
+Laura Johns
+Norman Jacob
+John Angel
+Juan Smith
+John Randall
+John Mariner
+Jeff Sosa
+Sherry Jones
+Jason Watkins
+Jennifer Yacko
+James Bonilla
+Joseph Peebles
+James Flitter
+James Kittell
+Regina Lovejoy
+James Owens
+Julius Lanser
+Juan Weaver
+Jacqueline Hill
+Tisha Johnson
+Juan Weiner
+John Helton
+Jerry Carpenter
+Jerry Morris
+James Smith
+Elaine Johnson
+Charles Rybij
+Joseph Landon
+Paul Jenkins
+Amy Jarrell
+James Edwards
+James Williams
+Judith Sapp
+Joann Miller
+Benjamin Hernandez
+Jeff Johnson
+Janice Hangartner
+Jeff Rosado
+Jesus Sims
+Juan Nettles
+Jorge Mendoza
+James Kardashian
+Jorge Hayes
+Josephine Longsdorf
+Jamie Sims
+Joe Chaffin
+Jamie Rice
+Jean Godby
+Joe Brim
+John Talley
+Julie Laurent
+Jennifer Evans
+Jennifer Oakley
+James Baker
+Juana Padilla
+Kevin Jackson
+John Cooley
+Ginger Joyce
+James Stroud
+Benjamin Smith
+Jean Rasmussen
+Tiffany Jones
+James Cohn
+Jason Eligio
+Jennifer Ruiz
+Jackie Davies
+James Lee
+Joe Beaton
+Justin Cayton
+James Sparrow
+Jeannine Williams
+John Gutierrez
+Juan Wheeler
+Janae Wallace
+Jeffrey Lane
+John Donelson
+James Doll
+Jimmy Carr
+James Riddle
+Jamie Martinez
+Nancy Jones
+James Ortiz
+James Harrison
+John Lynn
+Janice Hamiton
+Janet Cunningham
+Julie Maxfield
+John Bruce
+Vincent Johnson
+James Sandahl
+Johnnie Medellin
+Jesus Couch
+James Lanoue
+Kevin Johnston
+Elizabeth Johns
+Janet Hamilton
+Jenifer Hutchinson
+Judy Nelson
+Joseph Neeley
+John Caravella
+Josephine Watson
+Guadalupe Judon
+Joseph Dehetre
+Jack Walters
+Jamal Frazier
+Scott Johnson
+Julius Garmany
+Jennifer Baughman
+Joyce Meza
+Jason Edwards
+Jessica Hayes
+John Marsh
+Jean Langley
+John Hector
+Jason Wilkerson
+Jorge Bliss
+Benjamin Cutshall
+Johnnie Watts
+Jamie Howard
+Jodie Rybka
+John Bretz
+Joel Clukey
+Dorothy Jamison
+Jim Swenson
+Jennifer Robert
+Jeffrey Howell
+Jeremy Cifelli
+Joshua Mathias
+Jonathan Lind
+Joseph Velasco
+Jackie Shultz
+Richard Johnson
+John Caraballo
+Jacquelin Fennell
+Joshua Hankins
+Jimmie Clark
+Henry Jewell
+Jorge Haydock
+Benjamin Weiss
+Otis Jimenez
+Janice Blanton
+Lou Johnson
+Jack Brunner
+Joy Alvarez
+Jaclyn Young
+Francine Jacobs
+John Murray
+Jay Wilder
+Jerome Thornbury
+Edith Johnson
+Joyce Barna
+Joshua Doran
+Jennifer Rollins
+Andres Jones
+Joseph Mills
+Jean Allard
+Janice Jackson
+James Steiner
+James Mooney
+James Wang
+Jason Yamada
+Jane Gillespie
+Juan Delarosa
+David James
+Jeffrey Patterson
+John Young
+Jennifer Roberts
+Johnny Collingsworth
+Jackie Morton
+Melva Trujillo
+John Takahashi
+Jesus Sweatman
+John Dutton
+Forrest Johnson
+Joseph Bess
+Jared Saballos
+James Houseal
+Joseph Marinez
+Jesus Potter
+Jerome Jackson
+Jean Stout
+Lauren Jarrett
+Melvin Johnson
+William Johnson
+Jay Miller
+John Johnson
+Judy Ingles
+Jeremy Lewis
+Jessica Burgett
+Ronald Johnson
+Julie Pullen
+Jose Roberts
+Joseph Marrero
+Latoya Johnson
+Jennie Winesett
+Jae Kissinger
+James Oshea
+Gregg Juhasz
+Joshua Fleming
+Jose Kinney
+Jeffrey Friend
+John Park
+Jay Carlucci
+Joshua Fajardo
+Joshua Whitener
+Zachary Jamison
+Javier Vaughn
+Judith Biss
+Jeffrey Dewitt
+Jackie Marshall
+Justin Rushing
+Jo Marmol
+Audrey Lujan
+Victor Johnson
+Jayne Jones
+Jayson Dellinger
+David Johansson
+John Maynard
+James Toombs
+Jose Altom
+William Jefcoat
+Janna Bryant
+Steven Johnson
+James Olson
+Jerome Thomas
+Jake Epperson
+Heather Justice
+Jeanette Alquisira
+James Konopka
+Cathleen Jeune
+Gregory Jimenez
+Alejandro Schoen
+James Wohlrab
+Jose Sanders
+John Clance
+Jadwiga Rose
+Jeffrey Cruz
+Jennifer Simon
+James Riojas
+Jesus Cheatwood
+Jose Roberts
+Janice Scarberry
+Jeffery Alexander
+Bruce Jefferis
+John Prieto
+Karla Jarman
+Stephen Johnson
+Joel Butler
+John Davis
+John Langham
+Jeffrey Saenz
+Wesley Jenkins
+Jack Griffin
+John Williams
+Alma Justice
+Alejandro Edmonds
+Joseph Zeigler
+Jenna Hakimian
+Judy Ricci
+Dawn Jasper
+Kathleen Jones
+James Portillo
+Jeff Fitts
+Jack Warrington
+Joe Morrow
+Marvin Jung
+John Williams
+Willie Johnson
+James Forman
+James Dyches
+John Boggs
+Ray Johnson
+Julie Burns
+Paul Johnson
+James Townsend
+James Snow
+John Phillips
+Josefa Cooley
+John Anderson
+John Delarosa
+Jane Babineaux
+Julie Chaisson
+Jason Stephenson
+James Lewis
+Jeffrey Black
+Jodie Cunningham
+Judith Davis
+Jay Mclaine
+John An
+Joyce Sanders
+Jeanette Stevens
+Grace Trujillo
+Jeanette Lindley
+Jaime Lloyd
+Lindsay Jackson
+Joseph Williams
+John Tuinstra
+James Pappas
+Martha Johnson
+James Marquez
+Janet Hitt
+John Wells
+James Cowden
+Jennifer Harris
+Josette Johnson
+Joleen Kirk
+Jane Soper
+Jessica Henry
+Janice Wiley
+John Jun
+James Ace
+George Jensen
+Joan Holloway
+Justin Bergman
+Jackie Marusak
+James Pacheco
+James Dotson
+Jennifer Quinn
+James Collins
+Jenni Williams
+James Boston
+John Buttram
+Ruth Johnson
+Joseph Demers
+Jesse Yamasaki
+John Talbert
+Judy Weaver
+Jeffrey Harrison
+Donald Jude
+Elizabeth Jones
+Juliana Breland
+Jonathan Mcginness
+Jamie Anderson
+Paul Jackson
+Jacob Hampton
+Jeremy Warner
+Philip Johnson
+Judith Snow
+Jessica Figueroa
+Joseph Barber
+Willis Armijo
+Jason Onstott
+Johnathan Scowden
+Jana Mitchell
+John Alvarez
+James Simpson
+Helen Jeffreys
+John Lewis
+Jessica Miller
+Juan Ruffin
+Jeannine Ohare
+Jennifer Toro
+James Cho
+Jolene King
+Jaime Emmons
+Joseph Calvert
+Jacquline Hubertus
+James Lowell
+Joe Vasquez
+Josephine Stovall
+Jeffrey Vallien
+James Rucker
+John Lynn
+Julie Ellender
+Jacqueline Ingerson
+Justin Bernier
+Jennifer Newman
+Jonathan Hernandez
+John Lykins
+Michael Johnson
+Julia Bradford
+Linda Trujillo
+Jeff Perkins
+Mary Juarez
+Jeremy Clarke
+James Polizio
+John Blankenship
+Juana Gilbert
+Kevin Jones
+Thomas Verdejo
+Sonja Bullock
+Jeffrey Williams
+Virgil Rojas
+Jane Sims
+Jeri Childers
+John Ryan
+James Damon
+Jason Barnes
+John Hines
+John Abbe
+Donald Javier
+Sarah Jones
+Jeanne Hood
+James Martin
+Jason Dworkin
+James Sullivan
+John Barnes
+Kathryn Jenkins
+James Britt
+John Stout
+Fred Jackson
+Jeffery Fairchild
+Jacque Davis
+Julie Rawls
+Julie Mihalik
+James Graham
+Juan Nasser
+Julie Alley
+Joel Brashear
+Jim Bradley
+Josephine Stewart
+John Colter
+Anne Jenkins
+Joseph Bassett
+Jim Greenleaf
+Alex Jones
+John Shaffer
+Jean Alvarez
+Jeffrey Kelley
+Trista Jamison
+Jamie Gallegos
+Jason Wood
+Joann Burchett
+Jay Vazquez
+James Moore
+Ronald Jones
+Jimmy Blake
+Jessie Jacobson
+John Santiago
+Jennifer Pantoja
+Josephine France
+Juanita Maske
+Joseph Jensen
+Joel Hagens
+John Haney
+Julie Shepherd
+Jeff Farr
+Jeanne Camacho
+James Mclamb
+Jessie Sierra
+Denise Johnson
+Barry Jones
+John Sundberg
+Sherri Juarez
+Joshua Foster
+Petra Jennings
+James Connealy
+Joel Peoples
+John Harpole
+Alvin Jones
+Jessie Schreiner
+James Hofheimer
+William Jones
+John Desai
+Jon Hesse
+James Baker
+Jon Clemmer
+Jane Gream
+James Miles
+Joe Waugh
+Amanda Nejaime
+Lyndon Jeronimo
+Melani Jones
+Jean Bishop
+John Giroux
+Jacquelyn Ford
+Jeffrey Kenney
+Jami Spears
+Joyce Finlay
+Jeffrey Dishner
+Jennifer Alvidrez
+Joshua Gibson
+John Bishop
+Justin Hoy
+Justin Furbush
+Julie Saadd
+Jocelyn Cooper
+Jane Hayter
+James Carradine
+James Dome
+Jane Powers
+Julie Elwell
+John Gambles
+Whitney Johnson
+James Day
+Harold Johnson
+June Gunther
+Frederick Jeanlouis
+Evelyn Johnson
+James Anderman
+John Lambert
+Jorge Winter
+Jewell Davis
+Janina Bissonnette
+Jesse Hoover
+John Chase
+Jennifer Lenz
+Jane Bryant
+Ramona Jacobs
+Julius Bryant
+Jennifer Frazier
+Joseph Harr
+Johnnie Hall
+Mark Okajima
+John Legra
+Juanita Childs
+James Williams
+James Smith
+Brenda Jimenez
+Janet Niemann
+John Uriegas
+James Wheeler
+Jacob Chastain
+Janet Kirkwood
+Jocelyn Franklin
+Jennifer Winters
+Joy Nicholson
+Joseph Vance
+Jesse Hutchinson
+James Baca
+John Zepeda
+John Thomas
+Joseph Winters
+Douglas Jackson
+Joyce Dorr
+Joan Jean
+Jane Youngs
+Jason Knight
+Jonathan Tiefenauer
+John Navarro
+Judith Williams
+Joan Brower
+Alyson Johnson
+Ruth Jackson
+John Killion
+Joseph Havercroft
+John Melton
+Jessica Josephson
+Jason Gray
+Jessica Ohagan
+Jennifer Harrington
+Joseph Travelstead
+Jennifer Seto
+Bonita Guajardo
+James Cambell
+James Elmore
+John Rush
+Jeffrey Colella
+Jason Caruana
+Joe Wallace
+Joann Whitfield
+Joyce Partridge
+Juan Castro
+Oscar Jacobs
+Alicia Jimison
+Jake King
+Joseph Taylor
+Jason Charon
+Jeffrey Roesch
+Joseph Bullock
+Janet Taylor
+Jason Felix
+James Nissen
+John Goldberg
+Ronald Jones
+Jennifer Provost
+Joanne Urick
+Juli Crowell
+Erik Jackson
+Jennifer Marks
+Mark Jones
+Janice Cruz
+Jimmie Husk
+Jamie Vires
+Thomas January
+John Dean
+Shawn Johnson
+John Baldwin
+Linda Jethva
+Jesse Mckeeman
+Judy Roe
+Jean Sumler
+John Gray
+Julia Rice
+Jonathan Farkas
+Jeffrey Boldenow
+Joseph Samuelson
+Jessie Vicic
+Amy Jones
+James Goldfeder
+David Jiles
+John Arthur
+Janet Gilmore
+Steven Johnson
+Stephen Joseph
+Judy Poston
+Michael Johnson
+John Brunke
+Jamie Harris
+Jeanne Powell
+Marjorie Simpson
+Jan Boore
+Jennifer Smith
+Josie Castillo
+Joyce Evey
+Jacquelyn Crow
+Joshua Williams
+Jack Clark
+Joseph Rish
+John Clarkson
+Alan Jackson
+Juan Buri
+Marjorie Sherman
+James Haddox
+James Omalley
+Olin Johnson
+James Sorensen
+Jamaal Cochran
+Jeffrey Chavez
+David Jenney
+Jeffery Andre
+Joyce Edward
+James Ollis
+April Krajcer
+Effie Johann
+John Hacker
+John Rivers
+Jeanne Hurley
+Juan Schnakenberg
+Wilson Trujillo
+James Perkins
+James Angelilli
+Jeremy Lowe
+Jason Wyman
+Jeanne Woon
+John Ibrahim
+John Schafer
+Joyce Hoke
+Jackie Lopez
+Joseph Flock
+Joyce Ledoux
+Douglas Johnson
+Marvin Jones
+Robert Jones
+Jonathan Ryans
+Barbara Johnson
+Michael Jackson
+James Camargo
+Jose Price
+Joseph Williams
+John Bowar
+Judy Schneider
+Jeffery Alvarez
+Joshua Polson
+Joni Gaitan
+James Pigott
+Johnie Dubois
+John Beavers
+Jeremy Powers
+James Tate
+Charles James
+Justin Butler
+Miriam Vajgrt
+Jeremy Baier
+Johnnie Griffin
+Joseph Mcdonald
+James Flick
+Joan Munoz
+John Johnson
+Joel Boyd
+Justin Dixon
+Joseph Nixon
+Janice Mejorado
+Joshua Mcquiston
+Robert Jackson
+John Searchwell
+Sherman Jackson
+Kayla Juarez
+Jennifer Holt
+Janet Stevens
+Charles Jones
+Jay Ramos
+Justine Kurz
+Chris John
+Jeffrey Thomas
+James Polhemus
+Judy Acosta
+Joshua Given
+Joel Hill
+John Getz
+Jennie Dockery
+Laura Jacobs
+James Bollman
+Jillian Corsaut
+Charles Johnson
+James Lawrence
+James Alexander
+Jack Brewer
+Jose Welch
+James Huelle
+Jennifer Mccormick
+Joseph Goodwin
+Julie Goslee
+Ola Jackson
+Alejandrina Mcneil
+John Tecuanhuey
+Janelle Johnson
+David Jones
+Jacob Redding
+Joann Swann
+Johnny Taylor
+Josie Marson
+Elizabeth Johnson
+Juan Graybill
+Jayne Deeds
+Jerome Olson
+Doris Jackson
+Joel Ward
+Nathan Johnston
+Frances Jefferson
+Melissa Fajardo
+Roger James
+Joshua Leavell
+Ana Jester
+Janet Hughes
+Jose Porter
+Marjorie Espinoza
+Jeannie Hartis
+Kim Jaynes
+Jose Gray
+Jessie Hodge
+Jessica Dallas
+Jeff Witherspoon
+Jesse Wong
+Judith Barkley
+Jason Goddard
+Jennifer Jackson
+Jerry Hull
+Johnny Horne
+Janet Haverstock
+Donna Pujol
+Julian Davis
+John Brown
+James Mccarthy
+Janene Griffin
+Michael Jennings
+Jane Kauffman
+Jerry Jones
+Joan Webb
+James Waite
+Julia Southern
+Jacquelyn Mccullen
+Jon Denning
+Jeffrey Canpos
+Janice Coleman
+Jean Gaarder
+Joseph Aronow
+Jesse Whitford
+Trina Jones
+John Redden
+Benjamin Cade
+John Rector
+Judy Mcmurry
+Benjamin Stokes
+Janet Sevigny
+Robert Jarvis
+Jonathan Coleman
+Roy Johnson
+Jessie Barbour
+Joseph Chavez
+Joshua Kelly
+James Atkins
+Jennifer Duplessis
+Judith Obeso
+John Wolters
+April Jess
+Cynthia Johnson
+John Buck
+Joanne Krueger
+John Fischer
+Jordan Shaw
+Joseph Jones
+Johanna Williams
+John Eddy
+Jennifer Shoemaker
+Jacqueline Matthewson
+Jonathan Watkins
+Jean Harris
+Joseph Brown
+Julie Castro
+Jeremy Wills
+Sarah Jewett
+Judith Parekh
+Joanna Stark
+James Turner
+James Drummond
+James Leonard
+Joanna Aybar
+Justin Denise
+Jennifer Butler
+Ernest Jackson
+James Pimenta
+Jacqueline Tasson
+Julie Dawkins
+Joey Piere
+John Lopez
+Jim Seiter
+Janet Gregor
+Karen Johnson
+Julia Shaw
+James Koch
+Lenore Jean
+Joe Mauriello
+Julius Cooper
+Jean Taylor
+Jo Fellows
+Jerry Garvey
+Jeffrey Barry
+Jessica Berger
+James Lee
+Jorge Young
+Scot Johnson
+Jennifer Price
+Jerome Riley
+Jennifer Cowan
+Judy Deal
+Justine Balling
+Jeffrey Johnson
+Jospeh Caraway
+Joseph Junior
+John Figueroa
+Jerome Tarnoff
+James Seley
+Christopher James
+Zenaida Johnson
+Michael Jackson
+Jaye Bolstad
+John Jefferson
+John Helton
+Albert Andujar
+Janet Frost
+Jennifer Attridge
+Janet Howe
+Marilyn Jackiewicz
+Ben Jose
+James Tillman
+Joel Greene
+Joe Drake
+Joseph Bernet
+James Goldstein
+Julie Askew
+Jill Audette
+John Scott
+Joe Vajgrt
+Katie Johnson
+Grace Jenkins
+Jon Hinojosa
+Edna Johnson
+Jennifer Sumpter
+Joey Mahar
+Nettie Jones
+Bradley Johnson
+Judy Mckibben
+Rosie Jordan
+Joseph Bertram
+Jessie Winston
+John Santoyo
+Jenny Mann
+John Sluka
+Juan Steffens
+Mike Johnson
+Shirley Jones
+John Goss
+James Henry
+Patrick Jennings
+Jeffrey Allen
+Jennifer Stancil
+Jamila May
+Jana Almon
+Jewel Shank
+Joseph Staton
+Joyce Boone
+Joseph White
+Jacqueline Mullis
+Brenda Johnson
+Jose Murray
+Jeffrey Muncy
+Jennifer Beyer
+Josephine Forrester
+Justin Watkins
+Jesus Lewis
+Gregory Johns
+Jason Darrah
+James Cox
+Marjorie Echols
+James Youngdahl
+Joseph Anderson
+Benjamin Farber
+John Chambers
+Donald Johnson
+Jimmy Drake
+Jack Boettcher
+Jimmy Lamb
+Joseph Menter
+Jessica Perez
+Christine Dejardin
+Judy Brown
+Joshua Babcock
+Angela Jacks
+Judy Pope
+Justin Sosa
+Lucie Junkin
+John Cardi
+Judith Lee
+Joe Shaw
+Rose Johnson
+Jennifer Dufresne
+Joseph Ford
+Jerome Neal
+Joshua Reed
+Jamie York
+John Pelletier
+Jolene Kirkland
+John Thompson
+Andrew Johnson
+Flora Janus
+Josef Scott
+Leann Jones
+Julie Parson
+Jennifer Treto
+Jess Morrissey
+Jane Tardiff
+Frances Johnson
+Johnny Bender
+John Hartl
+James Martin
+Jaime Reynolds
+Charles Jones
+Jamie Bartley
+John Moore
+Jules Waddell
+Janis Waldbauer
+Sonja Hill
+Julie Jones
+Jason Sosa
+Joseph Rivali
+Jimmy Garcia
+John Harris
+Jeremy Barber
+Nelson Johnson
+Jena Maddrey
+June Woolcott
+Joseph Rosser
+James Widener
+Kevin Johnson
+Jesus Young
+Jonathan Mays
+Joshua Martinez
+Jason Marks
+Janelle Allen
+James Stills
+Annie Jamison
+Joshua Starrick
+Jamie Katz
+Jane Grantham
+James Himmel
+William Jones
+Jennie Guest
+James Palmer
+Jenna Graddy
+Jenny Houston
+Jarrod Cumings
+Jorge Brantley
+Jacqueline Owen
+Jack Harris
+Jerry Markley
+Joseph Brown
+John New
+James Hass
+Joseph Ham
+Joaquin Espinosa
+James Currin
+Justin Vandre
+Jerrod Perez
+Charles Jeffers
+Jay Hisey
+John Buckley
+James Sage
+John Young
+Jade Allbee
+Brenda Jacobs
+Jack Williams
+Juan Labarbera
+John Hornsby
+Jennifer Hunt
+James Bryan
+Jose Metcalf
+Jeffrey Terrell
+Jeanette Ashford
+Jennifer Flores
+Judith Chan
+Judith Bryant
+Jacques Fite
+John Wade
+Juanita Kelley
+Ida Rojas
+James Villela
+Joseph Buck
+James Myott
+Diane Jamison
+John Holmes
+Juan Shield
+Jennifer Wren
+Melissa Jacobs
+Joanne Wallace
+Florence Janow
+John Kjelland
+Jo Hadsell
+Roger Justice
+James Gonzalez
+Mary Johnson
+June Lively
+Robert Jackson
+Carolyn Johnson
+Jeffery Whetstine
+Joy Vannest
+Javier Scholtens
+Josh Ball
+Jillian Burt
+Jennifer Labo
+Jane Brown
+John Giard
+James Sisco
+Jeffrey Borelli
+Jose Allen
+Jason Levy
+Jerry Askew
+Jennifer Baker
+Jennifer Ward
+Joe Walden
+Joshua Wild
+Julie Copeland
+James Mcrae
+Chad Jackson
+Jennifer Flores
+James Norris
+Joan Crisp
+Marjorie Hardin
+Joseph Harrison
+Richard Barajas
+Joseph Walsh
+Jake Grant
+Jordan Mitchell
+John Ploof
+John Boyer
+Justin Davis
+Marjorie Trotter
+Jennifer Pass
+Jim Cartwright
+Juan Higgins
+John Peterson
+John Dougherty
+John Stohr
+Juliann Harris
+Judith Rodriguez
+James Jacoby
+Jon Rivera
+Joy Walsh
+Jimmy Moore
+John Well
+Jason Yates
+Joshua Muldrow
+John Fuentes
+Anna Johnstone
+Joseph Green
+Joseph Echevarria
+Jaime Lane
+Willie Jones
+Judy Burkes
+Robert Johnston
+James Pendergrass
+Madeleine Johnson
+John Thiel
+Beulah Mejia
+Joseph Poole
+John Harper
+Janice Refazo
+Julie Austin
+Jennifer Jones
+Justin Whitley
+Jesus Wilborn
+Tonja Scarnati
+Jamal Guiterrez
+Josephine Martino
+Julie Keenan
+James Farley
+Joseph Pierce
+Justin Wainer
+Joan Waddle
+Mark Mijangos
+Jeffrey Kirkland
+Justin Wong
+Joe Schulte
+Joseph Howell
+Jessica Daniels
+Marjorie Szewczyk
+James Jimenez
+John Penna
+Marjorie Ford
+Julius Ellison
+Johnny Loudy
+Spencer Calleja
+Melody Jones
+Jerome Darcangelo
+Tim Johnson
+Amanda Jones
+Joseph Merrow
+James Hopkins
+Jessica Blackman
+Janet Campos
+Jack Conley
+John Frederick
+Jennifer Dale
+Jerry Burton
+Jimmy Spruill
+Judith Gostlin
+Jody Ruiz
+Joan Mcwhorter
+James Yale
+Marjorie Marley
+Jasper Palmer
+Judith Lopez
+Pamela Josey
+Jean Mounts
+John Eaton
+Daniel Justice
+Shane Josey
+Donald Joe
+Helen Jeffcoat
+James Westray
+Donald Jastrebski
+Joshua Mash
+John Hornsby
+John Dodson
+Joseph Burlison
+Jean Leesman
+Tina Jerman
+Joe Callahan
+James Sparks
+John Carter
+Joseph Moore
+Jose Miller
+Start load testing with num queries 2000
+Query took 256.363639ms
+Result: 20
+Query took 261.064337ms
+Result: 20
+Query took 261.767239ms
+Result: 20
+Query took 266.639946ms
+Result: 20
+Query took 266.774951ms
+Result: 20
+Query took 267.968318ms
+Result: 20
+Query took 270.378762ms
+Result: 20
+Query took 270.405073ms
+Result: 20
+Query took 273.446217ms
+Result: 20
+Query took 276.485473ms
+Result: 20
+Query took 278.85852ms
+Result: 20
+Query took 279.144125ms
+Result: 20
+Query took 281.383454ms
+Result: 20
+Query took 282.507282ms
+Result: 20
+Query took 282.696015ms
+Result: 20
+Query took 284.9973ms
+Result: 20
+Query took 288.159804ms
+Result: 20
+Query took 289.15165ms
+Result: 20
+Query took 288.968019ms
+Result: 20
+Query took 285.652681ms
+Result: 20
+Query took 295.403923ms
+Result: 20
+Query took 296.708968ms
+Result: 20
+Query took 297.334792ms
+Result: 20
+Query took 300.79525ms
+Result: 20
+Query took 301.923742ms
+Result: 20
+Query took 303.826389ms
+Result: 20
+Query took 304.510455ms
+Result: 20
+Query took 305.440039ms
+Result: 20
+Query took 299.518814ms
+Result: 20
+Query took 307.070876ms
+Result: 20
+Query took 301.619328ms
+Result: 20
+Query took 302.457369ms
+Result: 20
+Query took 310.813755ms
+Result: 20
+Query took 309.521333ms
+Result: 20
+Query took 313.706428ms
+Result: 20
+Query took 315.554266ms
+Result: 20
+Query took 309.103473ms
+Result: 20
+Query took 317.270328ms
+Result: 20
+Query took 315.731937ms
+Result: 20
+Query took 320.419714ms
+Result: 20
+Query took 320.785484ms
+Result: 20
+Query took 309.131725ms
+Result: 20
+Query took 305.554488ms
+Result: 20
+Query took 322.097626ms
+Result: 20
+Query took 326.540576ms
+Result: 20
+Query took 313.896396ms
+Result: 20
+Query took 329.383755ms
+Result: 20
+Query took 326.899829ms
+Result: 20
+Query took 323.725074ms
+Result: 20
+Query took 332.37875ms
+Result: 20
+Query took 333.317476ms
+Result: 20
+Query took 335.06909ms
+Result: 20
+Query took 333.497131ms
+Result: 20
+Query took 328.556305ms
+Result: 20
+Query took 338.074883ms
+Result: 20
+Query took 339.74793ms
+Result: 20
+Query took 341.579678ms
+Result: 20
+Query took 327.974628ms
+Result: 20
+Query took 344.446197ms
+Result: 20
+Query took 337.279479ms
+Result: 20
+Query took 338.756597ms
+Result: 20
+Query took 340.041104ms
+Result: 20
+Query took 347.939696ms
+Result: 20
+Query took 347.922101ms
+Result: 20
+Query took 342.189877ms
+Result: 20
+Query took 352.590469ms
+Result: 20
+Query took 353.520608ms
+Result: 20
+Query took 353.101085ms
+Result: 20
+Query took 348.674961ms
+Result: 20
+Query took 350.582228ms
+Result: 20
+Query took 352.072736ms
+Result: 20
+Query took 361.357532ms
+Result: 20
+Query took 363.041624ms
+Result: 20
+Query took 355.425404ms
+Result: 20
+Query took 356.882146ms
+Result: 20
+Query took 358.707182ms
+Result: 20
+Query took 349.224792ms
+Result: 20
+Query took 368.061968ms
+Result: 20
+Query took 355.703324ms
+Result: 20
+Query took 352.599356ms
+Result: 20
+Query took 363.875331ms
+Result: 20
+Query took 372.724053ms
+Result: 20
+Query took 373.202003ms
+Result: 20
+Query took 367.752923ms
+Result: 20
+Query took 368.401394ms
+Result: 20
+Query took 363.854695ms
+Result: 20
+Query took 375.747918ms
+Result: 20
+Query took 380.843768ms
+Result: 20
+Query took 373.826975ms
+Result: 20
+Query took 379.391451ms
+Result: 20
+Query took 370.024669ms
+Result: 20
+Query took 385.997727ms
+Result: 20
+Query took 386.840315ms
+Result: 20
+Query took 379.736698ms
+Result: 20
+Query took 381.190982ms
+Result: 20
+Query took 382.270131ms
+Result: 18
+Query took 383.661803ms
+Result: 20
+Query took 379.108575ms
+Result: 20
+Query took 380.673547ms
+Result: 20
+Query took 390.875894ms
+Result: 20
+Query took 386.999995ms
+Result: 20
+Query took 393.410674ms
+Result: 20
+Query took 394.524229ms
+Result: 20
+Query took 395.866489ms
+Result: 20
+Query took 393.178062ms
+Result: 20
+Query took 394.699659ms
+Result: 20
+Query took 395.892171ms
+Result: 3
+Query took 396.640501ms
+Result: 20
+Query took 405.197171ms
+Result: 20
+Query took 399.259731ms
+Result: 20
+Query took 323.764128ms
+Result: 20
+Query took 409.159893ms
+Result: 20
+Query took 329.434662ms
+Result: 20
+Query took 403.036466ms
+Result: 20
+Query took 406.362639ms
+Result: 20
+Query took 401.121902ms
+Result: 20
+Query took 325.589661ms
+Result: 20
+Query took 408.643185ms
+Result: 20
+Query took 417.497259ms
+Result: 20
+Query took 420.04383ms
+Result: 20
+Query took 402.709798ms
+Result: 20
+Query took 412.995949ms
+Result: 20
+Query took 419.572872ms
+Result: 20
+Query took 416.784975ms
+Result: 20
+Query took 416.733698ms
+Result: 20
+Query took 419.185358ms
+Result: 20
+Query took 343.408516ms
+Result: 20
+Query took 428.446234ms
+Result: 20
+Query took 412.719516ms
+Result: 20
+Query took 464.938813ms
+Result: 20
+Query took 466.040823ms
+Result: 20
+Query took 447.569057ms
+Result: 20
+Query took 467.718317ms
+Result: 20
+Query took 470.008204ms
+Result: 20
+Query took 475.389922ms
+Result: 20
+Query took 475.990182ms
+Result: 20
+Query took 481.279524ms
+Result: 20
+Query took 474.518116ms
+Result: 20
+Query took 483.807995ms
+Result: 20
+Query took 476.167685ms
+Result: 20
+Query took 473.308932ms
+Result: 20
+Query took 412.363428ms
+Result: 20
+Query took 461.697872ms
+Result: 20
+Query took 406.848576ms
+Result: 20
+Query took 423.824121ms
+Result: 20
+Query took 480.240021ms
+Result: 20
+Query took 475.429042ms
+Result: 20
+Query took 481.288653ms
+Result: 20
+Query took 488.719608ms
+Result: 20
+Query took 408.534073ms
+Result: 20
+Query took 484.865995ms
+Result: 20
+Query took 492.309989ms
+Result: 20
+Query took 483.708328ms
+Result: 20
+Query took 489.788645ms
+Result: 20
+Query took 489.101329ms
+Result: 20
+Query took 491.147162ms
+Result: 20
+Query took 491.694066ms
+Result: 20
+Query took 506.126418ms
+Result: 13
+Query took 489.942372ms
+Result: 20
+Query took 500.194479ms
+Result: 20
+Query took 420.052723ms
+Result: 20
+Query took 498.251763ms
+Result: 20
+Query took 504.039778ms
+Result: 20
+Query took 495.985752ms
+Result: 20
+Query took 506.485677ms
+Result: 20
+Query took 507.857922ms
+Result: 20
+Query took 436.845646ms
+Result: 20
+Query took 429.347757ms
+Result: 20
+Query took 507.006027ms
+Result: 20
+Query took 517.764015ms
+Result: 20
+Query took 513.689733ms
+Result: 20
+Query took 485.452492ms
+Result: 20
+Query took 509.820909ms
+Result: 20
+Query took 456.991385ms
+Result: 20
+Query took 523.797318ms
+Result: 20
+Query took 514.021175ms
+Result: 20
+Query took 515.844875ms
+Result: 20
+Query took 518.241615ms
+Result: 20
+Query took 519.980358ms
+Result: 20
+Query took 526.314399ms
+Result: 20
+Query took 465.609375ms
+Result: 20
+Query took 522.896664ms
+Result: 20
+Query took 530.721504ms
+Result: 20
+Query took 526.272186ms
+Result: 20
+Query took 455.658143ms
+Result: 20
+Query took 503.171304ms
+Result: 20
+Query took 529.234144ms
+Result: 20
+Query took 530.993883ms
+Result: 20
+Query took 536.532364ms
+Result: 20
+Query took 531.368882ms
+Result: 20
+Query took 519.025779ms
+Result: 20
+Query took 539.726946ms
+Result: 20
+Query took 542.651632ms
+Result: 20
+Query took 482.393863ms
+Result: 20
+Query took 544.378321ms
+Result: 20
+Query took 546.183122ms
+Result: 20
+Query took 541.984365ms
+Result: 8
+Query took 487.539296ms
+Result: 20
+Query took 487.716141ms
+Result: 20
+Query took 463.440215ms
+Result: 20
+Query took 490.796578ms
+Result: 20
+Query took 527.669956ms
+Result: 20
+Query took 493.41736ms
+Result: 20
+Query took 477.560788ms
+Result: 20
+Query took 484.579628ms
+Result: 20
+Query took 531.584386ms
+Result: 20
+Query took 547.337859ms
+Result: 20
+Query took 486.999212ms
+Result: 20
+Query took 565.167483ms
+Result: 20
+Query took 489.252294ms
+Result: 20
+Query took 563.866845ms
+Result: 20
+Query took 501.484934ms
+Result: 20
+Query took 497.690943ms
+Result: 20
+Query took 570.980966ms
+Result: 20
+Query took 576.170033ms
+Result: 20
+Query took 492.230182ms
+Result: 20
+Query took 492.500895ms
+Result: 20
+Query took 509.181539ms
+Result: 20
+Query took 495.206348ms
+Result: 20
+Query took 543.584914ms
+Result: 20
+Query took 539.154208ms
+Result: 20
+Query took 536.783362ms
+Result: 20
+Query took 500.862323ms
+Result: 20
+Query took 539.104734ms
+Result: 20
+Query took 508.339211ms
+Result: 20
+Query took 520.877831ms
+Result: 20
+Query took 577.224123ms
+Result: 20
+Query took 502.223327ms
+Result: 20
+Query took 555.614721ms
+Result: 20
+Query took 576.326074ms
+Result: 20
+Query took 525.454834ms
+Result: 20
+Query took 552.787177ms
+Result: 20
+Query took 527.822813ms
+Result: 20
+Query took 585.214127ms
+Result: 20
+Query took 519.982447ms
+Result: 20
+Query took 525.579459ms
+Result: 20
+Query took 517.628343ms
+Result: 20
+Query took 600.180139ms
+Result: 20
+Query took 576.073005ms
+Result: 20
+Query took 520.61004ms
+Result: 20
+Query took 525.962021ms
+Result: 20
+Query took 594.43266ms
+Result: 20
+Query took 595.227071ms
+Result: 20
+Query took 530.048801ms
+Result: 20
+Query took 516.663177ms
+Result: 20
+Query took 612.179292ms
+Result: 20
+Query took 575.177216ms
+Result: 20
+Query took 586.837042ms
+Result: 20
+Query took 572.53478ms
+Result: 20
+Query took 609.23474ms
+Result: 20
+Query took 603.336873ms
+Result: 20
+Query took 604.68344ms
+Result: 20
+Query took 551.430913ms
+Result: 20
+Query took 606.941622ms
+Result: 20
+Query took 522.479608ms
+Result: 20
+Query took 538.47461ms
+Result: 20
+Query took 621.429041ms
+Result: 20
+Query took 597.917226ms
+Result: 20
+Query took 558.586069ms
+Result: 20
+Query took 600.808687ms
+Result: 20
+Query took 554.382317ms
+Result: 20
+Query took 561.830928ms
+Result: 20
+Query took 629.253305ms
+Result: 20
+Query took 619.753759ms
+Result: 20
+Query took 586.979901ms
+Result: 20
+Query took 588.126437ms
+Result: 20
+Query took 604.437576ms
+Result: 20
+Query took 610.226449ms
+Result: 20
+Query took 602.285744ms
+Result: 20
+Query took 565.294543ms
+Result: 20
+Query took 594.631678ms
+Result: 20
+Query took 615.634318ms
+Result: 20
+Query took 596.565072ms
+Result: 20
+Query took 602.167918ms
+Result: 20
+Query took 614.412084ms
+Result: 20
+Query took 610.021089ms
+Result: 20
+Query took 601.986476ms
+Result: 20
+Query took 637.889086ms
+Result: 20
+Query took 562.367094ms
+Result: 20
+Query took 625.58381ms
+Result: 20
+Query took 606.704669ms
+Result: 20
+Query took 641.689357ms
+Result: 20
+Query took 624.131824ms
+Result: 20
+Query took 589.088056ms
+Result: 20
+Query took 583.569362ms
+Result: 20
+Query took 642.346252ms
+Result: 20
+Query took 643.696871ms
+Result: 20
+Query took 655.047285ms
+Result: 20
+Query took 584.288507ms
+Result: 20
+Query took 596.969555ms
+Result: 20
+Query took 576.927185ms
+Result: 20
+Query took 592.392886ms
+Result: 20
+Query took 600.761631ms
+Result: 20
+Query took 651.095357ms
+Result: 20
+Query took 531.491846ms
+Result: 20
+Query took 592.023874ms
+Result: 20
+Query took 597.714119ms
+Result: 20
+Query took 627.692754ms
+Result: 20
+Query took 659.141556ms
+Result: 20
+Query took 608.724953ms
+Result: 20
+Query took 589.395832ms
+Result: 20
+Query took 613.830183ms
+Result: 20
+Query took 635.594446ms
+Result: 20
+Query took 677.023563ms
+Result: 20
+Query took 605.942052ms
+Result: 20
+Query took 683.626064ms
+Result: 13
+Query took 688.784692ms
+Result: 20
+Query took 656.278296ms
+Result: 20
+Query took 683.713635ms
+Result: 20
+Query took 683.89875ms
+Result: 20
+Query took 612.534089ms
+Result: 20
+Query took 609.33744ms
+Result: 20
+Query took 556.016609ms
+Result: 20
+Query took 648.388965ms
+Result: 20
+Query took 622.282491ms
+Result: 20
+Query took 698.406624ms
+Result: 20
+Query took 692.909022ms
+Result: 20
+Query took 653.612814ms
+Result: 20
+Query took 567.471621ms
+Result: 20
+Query took 628.071335ms
+Result: 20
+Query took 657.477005ms
+Result: 20
+Query took 626.960109ms
+Result: 20
+Query took 603.003087ms
+Result: 20
+Query took 675.51477ms
+Result: 20
+Query took 677.490535ms
+Result: 20
+Query took 683.731762ms
+Result: 20
+Query took 684.801866ms
+Result: 20
+Query took 678.503288ms
+Result: 20
+Query took 611.781076ms
+Result: 20
+Query took 648.304097ms
+Result: 20
+Query took 641.578008ms
+Result: 20
+Query took 648.892188ms
+Result: 20
+Query took 619.95792ms
+Result: 20
+Query took 693.003372ms
+Result: 20
+Query took 708.760661ms
+Result: 20
+Query took 685.784864ms
+Result: 20
+Query took 706.085315ms
+Result: 20
+Query took 721.690169ms
+Result: 9
+Query took 677.618107ms
+Result: 20
+Query took 713.386014ms
+Result: 20
+Query took 724.971937ms
+Result: 20
+Query took 654.365081ms
+Result: 20
+Query took 693.597455ms
+Result: 20
+Query took 717.681001ms
+Result: 20
+Query took 653.32897ms
+Result: 20
+Query took 659.357401ms
+Result: 20
+Query took 650.438096ms
+Result: 20
+Query took 667.100398ms
+Result: 20
+Query took 705.288103ms
+Result: 20
+Query took 730.876743ms
+Result: 20
+Query took 737.534777ms
+Result: 20
+Query took 728.194092ms
+Result: 20
+Query took 729.908341ms
+Result: 20
+Query took 664.399206ms
+Result: 20
+Query took 737.194463ms
+Result: 20
+Query took 663.236294ms
+Result: 20
+Query took 714.974112ms
+Result: 20
+Query took 701.47183ms
+Result: 20
+Query took 608.811676ms
+Result: 20
+Query took 676.523775ms
+Result: 20
+Query took 719.058381ms
+Result: 20
+Query took 757.868627ms
+Result: 20
+Query took 750.947833ms
+Result: 20
+Query took 714.750114ms
+Result: 20
+Query took 696.431573ms
+Result: 20
+Query took 695.295866ms
+Result: 20
+Query took 714.500342ms
+Result: 20
+Query took 710.994332ms
+Result: 20
+Query took 788.350729ms
+Result: 20
+Query took 714.172522ms
+Result: 20
+Query took 775.371451ms
+Result: 20
+Query took 790.830709ms
+Result: 20
+Query took 792.526005ms
+Result: 20
+Query took 793.616474ms
+Result: 20
+Query took 719.12988ms
+Result: 20
+Query took 776.923095ms
+Result: 20
+Query took 808.160713ms
+Result: 20
+Query took 769.307398ms
+Result: 20
+Query took 770.505832ms
+Result: 20
+Query took 802.264826ms
+Result: 20
+Query took 741.461636ms
+Result: 20
+Query took 748.943466ms
+Result: 20
+Query took 739.788544ms
+Result: 20
+Query took 680.277231ms
+Result: 20
+Query took 727.13009ms
+Result: 20
+Query took 784.476892ms
+Result: 20
+Query took 780.108416ms
+Result: 20
+Query took 756.78852ms
+Result: 20
+Query took 792.741109ms
+Result: 20
+Query took 737.928058ms
+Result: 20
+Query took 753.890467ms
+Result: 20
+Query took 725.827852ms
+Result: 20
+Query took 762.469255ms
+Result: 20
+Query took 760.03337ms
+Result: 20
+Query took 790.190051ms
+Result: 20
+Query took 806.97571ms
+Result: 20
+Query took 745.499017ms
+Result: 20
+Query took 799.212762ms
+Result: 20
+Query took 824.077497ms
+Result: 20
+Query took 759.29159ms
+Result: 20
+Query took 736.139075ms
+Result: 20
+Query took 676.399512ms
+Result: 20
+Query took 757.903606ms
+Result: 20
+Query took 795.83144ms
+Result: 20
+Query took 746.124008ms
+Result: 20
+Query took 838.845008ms
+Result: 20
+Query took 773.035081ms
+Result: 20
+Query took 835.985516ms
+Result: 20
+Query took 836.47512ms
+Result: 20
+Query took 776.215982ms
+Result: 20
+Query took 833.616582ms
+Result: 20
+Query took 768.544509ms
+Result: 20
+Query took 856.295729ms
+Result: 20
+Query took 780.786588ms
+Result: 20
+Query took 778.194369ms
+Result: 20
+Query took 775.21865ms
+Result: 20
+Query took 779.947274ms
+Result: 20
+Query took 757.86352ms
+Result: 20
+Query took 787.340636ms
+Result: 20
+Query took 831.762646ms
+Result: 20
+Query took 796.811898ms
+Result: 20
+Query took 852.069325ms
+Result: 20
+Query took 791.663407ms
+Result: 20
+Query took 800.376015ms
+Result: 20
+Query took 861.18765ms
+Result: 20
+Query took 790.806188ms
+Result: 20
+Query took 730.650384ms
+Result: 20
+Query took 857.393759ms
+Result: 20
+Query took 870.630102ms
+Result: 20
+Query took 786.128655ms
+Result: 20
+Query took 735.600401ms
+Result: 20
+Query took 789.507282ms
+Result: 20
+Query took 847.41097ms
+Result: 20
+Query took 873.612631ms
+Result: 20
+Query took 807.256679ms
+Result: 20
+Query took 850.949291ms
+Result: 20
+Query took 866.902747ms
+Result: 20
+Query took 816.827531ms
+Result: 20
+Query took 818.247285ms
+Result: 20
+Query took 860.993949ms
+Result: 20
+Query took 811.104775ms
+Result: 20
+Query took 842.660168ms
+Result: 20
+Query took 789.093687ms
+Result: 20
+Query took 814.136114ms
+Result: 20
+Query took 846.751188ms
+Result: 20
+Query took 792.742335ms
+Result: 20
+Query took 883.760276ms
+Result: 20
+Query took 885.079589ms
+Result: 20
+Query took 805.230355ms
+Result: 20
+Query took 800.001293ms
+Result: 20
+Query took 868.260045ms
+Result: 20
+Query took 858.98347ms
+Result: 20
+Query took 856.644999ms
+Result: 20
+Query took 801.727275ms
+Result: 20
+Query took 806.56149ms
+Result: 20
+Query took 889.859947ms
+Result: 20
+Query took 814.005642ms
+Result: 20
+Query took 877.593471ms
+Result: 20
+Query took 835.361794ms
+Result: 20
+Query took 827.469302ms
+Result: 20
+Query took 833.447152ms
+Result: 20
+Query took 834.861599ms
+Result: 20
+Query took 837.079643ms
+Result: 20
+Query took 873.410329ms
+Result: 20
+Query took 824.421506ms
+Result: 20
+Query took 834.108779ms
+Result: 20
+Query took 893.865564ms
+Result: 20
+Query took 918.28572ms
+Result: 20
+Query took 848.083525ms
+Result: 20
+Query took 855.915031ms
+Result: 20
+Query took 857.862883ms
+Result: 20
+Query took 831.948465ms
+Result: 20
+Query took 899.809295ms
+Result: 20
+Query took 848.342446ms
+Result: 20
+Query took 882.997036ms
+Result: 20
+Query took 863.57708ms
+Result: 20
+Query took 914.88072ms
+Result: 20
+Query took 863.800848ms
+Result: 20
+Query took 866.275541ms
+Result: 20
+Query took 852.224242ms
+Result: 20
+Query took 898.880211ms
+Result: 20
+Query took 839.512995ms
+Result: 20
+Query took 940.513552ms
+Result: 20
+Query took 836.799886ms
+Result: 20
+Query took 927.741546ms
+Result: 20
+Query took 905.464515ms
+Result: 20
+Query took 844.425397ms
+Result: 20
+Query took 870.650285ms
+Result: 20
+Query took 903.580123ms
+Result: 20
+Query took 864.824445ms
+Result: 20
+Query took 868.667604ms
+Result: 20
+Query took 809.742914ms
+Result: 20
+Query took 938.453378ms
+Result: 20
+Query took 951.931328ms
+Result: 20
+Query took 906.675457ms
+Result: 20
+Query took 907.218209ms
+Result: 20
+Query took 871.514645ms
+Result: 20
+Query took 873.53945ms
+Result: 20
+Query took 889.151077ms
+Result: 20
+Query took 890.275999ms
+Result: 20
+Query took 885.452745ms
+Result: 20
+Query took 867.64866ms
+Result: 20
+Query took 822.787265ms
+Result: 20
+Query took 879.601445ms
+Result: 20
+Query took 930.34577ms
+Result: 20
+Query took 870.556319ms
+Result: 20
+Query took 952.447447ms
+Result: 20
+Query took 963.339376ms
+Result: 20
+Query took 883.337385ms
+Result: 20
+Query took 839.093223ms
+Result: 20
+Query took 836.216954ms
+Result: 20
+Query took 939.324577ms
+Result: 20
+Query took 893.529886ms
+Result: 20
+Query took 898.387682ms
+Result: 20
+Query took 912.466908ms
+Result: 20
+Query took 893.48286ms
+Result: 20
+Query took 937.939706ms
+Result: 20
+Query took 915.903426ms
+Result: 20
+Query took 908.942046ms
+Result: 20
+Query took 949.712047ms
+Result: 20
+Query took 918.34203ms
+Result: 20
+Query took 920.154599ms
+Result: 20
+Query took 905.056336ms
+Result: 20
+Query took 963.214999ms
+Result: 20
+Query took 887.410585ms
+Result: 20
+Query took 924.468797ms
+Result: 20
+Query took 920.568454ms
+Result: 20
+Query took 894.978852ms
+Result: 20
+Query took 977.049192ms
+Result: 20
+Query took 983.18611ms
+Result: 20
+Query took 960.738914ms
+Result: 20
+Query took 919.971189ms
+Result: 20
+Query took 905.971114ms
+Result: 20
+Query took 898.714654ms
+Result: 20
+Query took 925.423979ms
+Result: 20
+Query took 918.613502ms
+Result: 20
+Query took 937.261604ms
+Result: 20
+Query took 930.620082ms
+Result: 20
+Query took 923.667801ms
+Result: 20
+Query took 867.598142ms
+Result: 20
+Query took 924.782001ms
+Result: 20
+Query took 930.866617ms
+Result: 20
+Query took 967.246039ms
+Result: 0
+Query took 846.976088ms
+Result: 20
+Query took 933.083199ms
+Result: 20
+Query took 911.605603ms
+Result: 20
+Query took 915.53887ms
+Result: 20
+Query took 968.476699ms
+Result: 20
+Query took 916.473651ms
+Result: 20
+Query took 1.000950182s
+Result: 20
+Query took 916.361032ms
+Result: 20
+Query took 942.350742ms
+Result: 20
+Query took 986.34453ms
+Result: 20
+Query took 929.399725ms
+Result: 20
+Query took 935.345011ms
+Result: 20
+Query took 926.731345ms
+Result: 20
+Query took 891.788658ms
+Result: 20
+Query took 959.89611ms
+Result: 20
+Query took 991.225537ms
+Result: 20
+Query took 895.190622ms
+Result: 20
+Query took 928.091083ms
+Result: 20
+Query took 938.23078ms
+Result: 20
+Query took 949.422227ms
+Result: 20
+Query took 1.001513828s
+Result: 20
+Query took 1.021929907s
+Result: 20
+Query took 947.784358ms
+Result: 20
+Query took 943.513909ms
+Result: 20
+Query took 960.273361ms
+Result: 20
+Query took 971.421373ms
+Result: 20
+Query took 1.043441796s
+Result: 20
+Query took 943.758699ms
+Result: 20
+Query took 997.24483ms
+Result: 20
+Query took 970.629609ms
+Result: 20
+Query took 1.038724343s
+Result: 20
+Query took 943.947554ms
+Result: 20
+Query took 1.040972652s
+Result: 20
+Query took 911.027456ms
+Result: 20
+Query took 1.042960021s
+Result: 20
+Query took 972.748164ms
+Result: 20
+Query took 1.040696558s
+Result: 20
+Query took 980.713344ms
+Result: 20
+Query took 989.032823ms
+Result: 20
+Query took 958.080244ms
+Result: 20
+Query took 955.449666ms
+Result: 20
+Query took 1.012074234s
+Result: 20
+Query took 976.670395ms
+Result: 20
+Query took 994.362426ms
+Result: 20
+Query took 983.345417ms
+Result: 20
+Query took 970.093195ms
+Result: 20
+Query took 1.018453293s
+Result: 20
+Query took 984.4926ms
+Result: 20
+Query took 927.383383ms
+Result: 20
+Query took 999.966958ms
+Result: 20
+Query took 971.026888ms
+Result: 20
+Query took 982.311521ms
+Result: 20
+Query took 1.054675979s
+Result: 20
+Query took 986.936582ms
+Result: 20
+Query took 1.007264168s
+Result: 20
+Query took 1.00758062s
+Result: 20
+Query took 999.490815ms
+Result: 20
+Query took 1.060563859s
+Result: 20
+Query took 1.036907017s
+Result: 20
+Query took 991.729677ms
+Result: 20
+Query took 988.278761ms
+Result: 20
+Query took 984.920314ms
+Result: 20
+Query took 985.507445ms
+Result: 9
+Query took 1.016204027s
+Result: 20
+Query took 951.805956ms
+Result: 20
+Query took 989.51124ms
+Result: 20
+Query took 987.106497ms
+Result: 20
+Query took 1.010960407s
+Result: 20
+Query took 1.008229572s
+Result: 20
+Query took 1.07498347s
+Result: 20
+Query took 1.051832749s
+Result: 20
+Query took 1.094949367s
+Result: 20
+Query took 1.050024695s
+Result: 20
+Query took 1.13091394s
+Result: 20
+Query took 1.052387543s
+Result: 20
+Query took 1.053413824s
+Result: 20
+Query took 1.119766851s
+Result: 20
+Query took 1.050279846s
+Result: 20
+Query took 1.038136008s
+Result: 20
+Query took 1.058634624s
+Result: 20
+Query took 1.139646511s
+Result: 20
+Query took 1.059756642s
+Result: 20
+Query took 1.045376178s
+Result: 20
+Query took 1.046856411s
+Result: 20
+Query took 1.119668766s
+Result: 20
+Query took 1.069824948s
+Result: 20
+Query took 1.045482669s
+Result: 20
+Query took 1.108986492s
+Result: 20
+Query took 1.048108762s
+Result: 20
+Query took 1.056168442s
+Result: 20
+Query took 1.087689844s
+Result: 20
+Query took 1.129051135s
+Result: 20
+Query took 1.131247955s
+Result: 20
+Query took 1.020890838s
+Result: 20
+Query took 1.088392173s
+Result: 20
+Query took 1.073120177s
+Result: 20
+Query took 1.115589959s
+Result: 20
+Query took 1.127720851s
+Result: 20
+Query took 1.067052848s
+Result: 20
+Query took 1.124296709s
+Result: 20
+Query took 1.08466394s
+Result: 20
+Query took 1.126215875s
+Result: 20
+Query took 1.172316379s
+Result: 20
+Query took 1.031544902s
+Result: 20
+Query took 1.174579792s
+Result: 20
+Query took 1.085781033s
+Result: 20
+Query took 1.095816988s
+Result: 20
+Query took 1.088691201s
+Result: 20
+Query took 1.094297615s
+Result: 20
+Query took 1.095449261s
+Result: 20
+Query took 1.114980128s
+Result: 20
+Query took 1.108190326s
+Result: 20
+Query took 1.045632529s
+Result: 20
+Query took 1.174281209s
+Result: 20
+Query took 1.143976069s
+Result: 20
+Query took 1.108425093s
+Result: 20
+Query took 1.162689572s
+Result: 20
+Query took 1.157620743s
+Result: 20
+Query took 1.148779269s
+Result: 20
+Query took 1.088848969s
+Result: 20
+Query took 1.106629945s
+Result: 20
+Query took 1.126160453s
+Result: 20
+Query took 1.09443298s
+Result: 20
+Query took 1.106269676s
+Result: 20
+Query took 1.185136785s
+Result: 20
+Query took 1.131423908s
+Result: 20
+Query took 1.188724049s
+Result: 20
+Query took 1.119322841s
+Result: 20
+Query took 1.109402693s
+Result: 20
+Query took 1.101739591s
+Result: 20
+Query took 1.16332647s
+Result: 20
+Query took 1.174828785s
+Result: 20
+Query took 1.068621293s
+Result: 20
+Query took 1.122134801s
+Result: 20
+Query took 1.197763933s
+Result: 20
+Query took 1.193650891s
+Result: 20
+Query took 1.133399111s
+Result: 20
+Query took 1.140303467s
+Result: 20
+Query took 1.132059693s
+Result: 6
+Query took 1.114199879s
+Result: 20
+Query took 1.118788654s
+Result: 20
+Query took 1.145638831s
+Result: 20
+Query took 1.182434721s
+Result: 20
+Query took 1.133175765s
+Result: 20
+Query took 1.153022657s
+Result: 20
+Query took 1.196015669s
+Result: 20
+Query took 1.177925223s
+Result: 20
+Query took 1.192111706s
+Result: 6
+Query took 1.198864523s
+Result: 20
+Query took 1.088070231s
+Result: 20
+Query took 1.202204587s
+Result: 20
+Query took 1.142879424s
+Result: 20
+Query took 1.153760687s
+Result: 20
+Query took 1.150149588s
+Result: 20
+Query took 1.223344867s
+Result: 19
+Query took 1.19950763s
+Result: 20
+Query took 1.136101511s
+Result: 20
+Query took 1.137490611s
+Result: 20
+Query took 1.147260382s
+Result: 20
+Query took 1.157002889s
+Result: 20
+Query took 1.155043103s
+Result: 20
+Query took 1.149650564s
+Result: 20
+Query took 1.176888842s
+Result: 13
+Query took 1.199057153s
+Result: 20
+Query took 1.209645136s
+Result: 20
+Query took 1.211119276s
+Result: 20
+Query took 1.146989171s
+Result: 20
+Query took 1.214815347s
+Result: 20
+Query took 1.157521014s
+Result: 20
+Query took 1.158995627s
+Result: 20
+Query took 1.159816242s
+Result: 9
+Query took 1.187100701s
+Result: 20
+Query took 1.247269473s
+Result: 20
+Query took 1.213342659s
+Result: 20
+Query took 1.240310737s
+Result: 20
+Query took 1.212678738s
+Result: 20
+Query took 1.181340778s
+Result: 20
+Query took 1.193028966s
+Result: 20
+Query took 1.249856228s
+Result: 20
+Query took 1.250996938s
+Result: 20
+Query took 1.262198122s
+Result: 20
+Query took 1.251929019s
+Result: 20
+Query took 1.188308747s
+Result: 20
+Query took 1.255745002s
+Result: 20
+Query took 1.134358827s
+Result: 20
+Query took 1.175761908s
+Result: 20
+Query took 1.177886157s
+Result: 20
+Query took 1.196371337s
+Result: 20
+Query took 1.226220628s
+Result: 20
+Query took 1.176253156s
+Result: 20
+Query took 1.200718408s
+Result: 20
+Query took 1.249553103s
+Result: 20
+Query took 1.275431542s
+Result: 20
+Query took 1.251506574s
+Result: 20
+Query took 1.233448232s
+Result: 20
+Query took 1.263167023s
+Result: 20
+Query took 1.23981584s
+Result: 20
+Query took 1.209451343s
+Result: 20
+Query took 1.2522919s
+Result: 20
+Query took 1.278869085s
+Result: 20
+Query took 1.148538498s
+Result: 20
+Query took 1.200052299s
+Result: 20
+Query took 1.214357607s
+Result: 20
+Query took 1.27775141s
+Result: 20
+Query took 1.265104273s
+Result: 20
+Query took 1.244783014s
+Result: 20
+Query took 1.281585572s
+Result: 20
+Query took 1.292975272s
+Result: 20
+Query took 1.25393146s
+Result: 20
+Query took 1.291141172s
+Result: 20
+Query took 1.266450556s
+Result: 20
+Query took 1.199226018s
+Result: 20
+Query took 1.289327353s
+Result: 20
+Query took 1.215788124s
+Result: 20
+Query took 1.297360656s
+Result: 20
+Query took 1.234152157s
+Result: 20
+Query took 1.233458148s
+Result: 20
+Query took 1.291966047s
+Result: 20
+Query took 1.216863807s
+Result: 20
+Query took 1.241091637s
+Result: 20
+Query took 1.305770348s
+Result: 13
+Query took 1.210131568s
+Result: 20
+Query took 1.296230908s
+Result: 20
+Query took 1.176124774s
+Result: 20
+Query took 1.280100969s
+Result: 20
+Query took 1.27495433s
+Result: 20
+Query took 1.281575122s
+Result: 20
+Query took 1.231860526s
+Result: 20
+Query took 1.222209931s
+Result: 20
+Query took 1.23490627s
+Result: 20
+Query took 1.225598605s
+Result: 20
+Query took 1.252155815s
+Result: 20
+Query took 1.186319715s
+Result: 20
+Query took 1.258173707s
+Result: 20
+Query took 1.244800589s
+Result: 20
+Query took 1.317351913s
+Result: 20
+Query took 1.256071827s
+Result: 20
+Query took 1.298897788s
+Result: 20
+Query took 1.286290054s
+Result: 20
+Query took 1.247240279s
+Result: 20
+Query took 1.323775522s
+Result: 20
+Query took 1.249324713s
+Result: 20
+Query took 1.241583346s
+Result: 20
+Query took 1.323567859s
+Result: 20
+Query took 1.258329848s
+Result: 20
+Query took 1.263095996s
+Result: 20
+Query took 1.296756697s
+Result: 20
+Query took 1.267373317s
+Result: 20
+Query took 1.263227397s
+Result: 20
+Query took 1.320236494s
+Result: 20
+Query took 1.260287747s
+Result: 20
+Query took 1.280702419s
+Result: 20
+Query took 1.283476431s
+Result: 20
+Query took 1.262481226s
+Result: 20
+Query took 1.25147996s
+Result: 20
+Query took 1.286438479s
+Result: 20
+Query took 1.25279851s
+Result: 20
+Query took 1.319853398s
+Result: 20
+Query took 1.285055792s
+Result: 20
+Query took 1.326539107s
+Result: 20
+Query took 1.287253749s
+Result: 20
+Query took 1.2883296s
+Result: 20
+Query took 1.315687589s
+Result: 20
+Query took 1.264932237s
+Result: 20
+Query took 1.327377687s
+Result: 20
+Query took 1.226198942s
+Result: 20
+Query took 1.278096223s
+Result: 20
+Query took 1.330893857s
+Result: 20
+Query took 1.37107526s
+Result: 20
+Query took 1.333081684s
+Result: 20
+Query took 1.358233964s
+Result: 20
+Query took 1.273262129s
+Result: 20
+Query took 1.285297812s
+Result: 20
+Query took 1.291967903s
+Result: 20
+Query took 1.343776349s
+Result: 20
+Query took 1.330071645s
+Result: 20
+Query took 1.341677276s
+Result: 20
+Query took 1.291785764s
+Result: 20
+Query took 1.30661203s
+Result: 20
+Query took 1.288337487s
+Result: 20
+Query took 1.356569938s
+Result: 20
+Query took 1.356986816s
+Result: 20
+Query took 1.318055094s
+Result: 20
+Query took 1.299440797s
+Result: 20
+Query took 1.360999187s
+Result: 20
+Query took 1.294728956s
+Result: 20
+Query took 1.306631454s
+Result: 20
+Query took 1.297140811s
+Result: 20
+Query took 1.308902433s
+Result: 20
+Query took 1.314640385s
+Result: 20
+Query took 1.376234863s
+Result: 20
+Query took 1.301951266s
+Result: 20
+Query took 1.312323182s
+Result: 20
+Query took 1.293890436s
+Result: 20
+Query took 1.352451577s
+Result: 20
+Query took 1.373266976s
+Result: 20
+Query took 1.311405717s
+Result: 20
+Query took 1.319628166s
+Result: 20
+Query took 1.304373361s
+Result: 20
+Query took 1.301957946s
+Result: 20
+Query took 1.303548367s
+Result: 20
+Query took 1.321946867s
+Result: 20
+Query took 1.32423019s
+Result: 20
+Query took 1.334884373s
+Result: 20
+Query took 1.311952786s
+Result: 20
+Query took 1.312076407s
+Result: 20
+Query took 1.278360376s
+Result: 20
+Query took 1.310730314s
+Result: 20
+Query took 1.334882598s
+Result: 20
+Query took 1.322086427s
+Result: 20
+Query took 1.334405021s
+Result: 20
+Query took 1.320107294s
+Result: 20
+Query took 1.336822907s
+Result: 20
+Query took 1.335038825s
+Result: 20
+Query took 1.330793073s
+Result: 20
+Query took 1.383013715s
+Result: 20
+Query took 1.418788779s
+Result: 20
+Query took 1.345860712s
+Result: 20
+Query took 1.344763922s
+Result: 20
+Query took 1.41858301s
+Result: 20
+Query took 1.388890826s
+Result: 20
+Query took 1.339581111s
+Result: 15
+Query took 1.340019082s
+Result: 20
+Query took 1.388844104s
+Result: 20
+Query took 1.423604043s
+Result: 20
+Query took 1.354562339s
+Result: 20
+Query took 1.349423035s
+Result: 20
+Query took 1.394019881s
+Result: 20
+Query took 1.373472414s
+Result: 20
+Query took 1.434867141s
+Result: 20
+Query took 1.445671598s
+Result: 20
+Query took 1.402614731s
+Result: 20
+Query took 1.352674468s
+Result: 20
+Query took 1.359948021s
+Result: 20
+Query took 1.370358415s
+Result: 20
+Query took 1.351084682s
+Result: 20
+Query took 1.312121517s
+Result: 20
+Query took 1.369051727s
+Result: 20
+Query took 1.435350635s
+Result: 20
+Query took 1.422663385s
+Result: 20
+Query took 1.41258739s
+Result: 20
+Query took 1.444953669s
+Result: 20
+Query took 1.358619148s
+Result: 5
+Query took 1.365354028s
+Result: 20
+Query took 1.38698566s
+Result: 20
+Query took 1.357719921s
+Result: 20
+Query took 1.415709321s
+Result: 20
+Query took 1.381174703s
+Result: 20
+Query took 1.431522837s
+Result: 20
+Query took 1.424127649s
+Result: 20
+Query took 1.424448879s
+Result: 20
+Query took 1.388929303s
+Result: 20
+Query took 1.431852555s
+Result: 20
+Query took 1.432940303s
+Result: 20
+Query took 1.403670656s
+Result: 20
+Query took 1.455395034s
+Result: 20
+Query took 1.436586613s
+Result: 20
+Query took 1.433739048s
+Result: 20
+Query took 1.438760062s
+Result: 20
+Query took 1.409607574s
+Result: 20
+Query took 1.436569956s
+Result: 20
+Query took 1.442555025s
+Result: 20
+Query took 1.433943169s
+Result: 20
+Query took 1.400590793s
+Result: 20
+Query took 1.436067942s
+Result: 20
+Query took 1.510537395s
+Result: 20
+Query took 1.477923599s
+Result: 20
+Query took 1.486392162s
+Result: 20
+Query took 1.490496124s
+Result: 20
+Query took 1.506736314s
+Result: 20
+Query took 1.450782345s
+Result: 20
+Query took 1.519998379s
+Result: 20
+Query took 1.495125299s
+Result: 20
+Query took 1.492066878s
+Result: 20
+Query took 1.482095606s
+Result: 20
+Query took 1.494502583s
+Result: 20
+Query took 1.443499613s
+Result: 20
+Query took 1.46466624s
+Result: 20
+Query took 1.489922155s
+Result: 20
+Query took 1.461444709s
+Result: 20
+Query took 1.443188956s
+Result: 20
+Query took 1.524981188s
+Result: 20
+Query took 1.399685867s
+Result: 20
+Query took 1.437254048s
+Result: 20
+Query took 1.453935567s
+Result: 20
+Query took 1.537040808s
+Result: 20
+Query took 1.458622147s
+Result: 20
+Query took 1.471826786s
+Result: 20
+Query took 1.535926102s
+Result: 20
+Query took 1.513496312s
+Result: 20
+Query took 1.461153941s
+Result: 20
+Query took 1.467788912s
+Result: 20
+Query took 1.463748046s
+Result: 20
+Query took 1.506937483s
+Result: 20
+Query took 1.467779961s
+Result: 20
+Query took 1.548249929s
+Result: 10
+Query took 1.458170406s
+Result: 20
+Query took 1.526166115s
+Result: 20
+Query took 1.456320011s
+Result: 20
+Query took 1.514204845s
+Result: 20
+Query took 1.459485482s
+Result: 20
+Query took 1.515630498s
+Result: 20
+Query took 1.484068262s
+Result: 20
+Query took 1.566943506s
+Result: 20
+Query took 1.493622414s
+Result: 20
+Query took 1.464061393s
+Result: 20
+Query took 1.556863381s
+Result: 20
+Query took 1.485390127s
+Result: 20
+Query took 1.47682659s
+Result: 20
+Query took 1.545842708s
+Result: 20
+Query took 1.556242286s
+Result: 20
+Query took 1.440697325s
+Result: 20
+Query took 1.442110774s
+Result: 20
+Query took 1.474895611s
+Result: 20
+Query took 1.50124021s
+Result: 20
+Query took 1.492503009s
+Result: 20
+Query took 1.507221206s
+Result: 20
+Query took 1.443744107s
+Result: 20
+Query took 1.479886178s
+Result: 20
+Query took 1.486184193s
+Result: 20
+Query took 1.487208134s
+Result: 20
+Query took 1.503858502s
+Result: 20
+Query took 1.500291361s
+Result: 20
+Query took 1.49092609s
+Result: 20
+Query took 1.511469658s
+Result: 20
+Query took 1.453483008s
+Result: 20
+Query took 1.581140165s
+Result: 20
+Query took 1.496232835s
+Result: 20
+Query took 1.568117057s
+Result: 20
+Query took 1.50237637s
+Result: 20
+Query took 1.59133676s
+Result: 20
+Query took 1.582118487s
+Result: 20
+Query took 1.5164211s
+Result: 20
+Query took 1.589532807s
+Result: 20
+Query took 1.566860191s
+Result: 20
+Query took 1.587281089s
+Result: 20
+Query took 1.589291602s
+Result: 20
+Query took 1.525522816s
+Result: 20
+Query took 1.56279881s
+Result: 20
+Query took 1.521373009s
+Result: 20
+Query took 1.51299104s
+Result: 20
+Query took 1.513844808s
+Result: 20
+Query took 1.514838466s
+Result: 20
+Query took 1.611994631s
+Result: 20
+Query took 1.568583934s
+Result: 20
+Query took 1.53262428s
+Result: 20
+Query took 1.530778493s
+Result: 20
+Query took 1.546868272s
+Result: 20
+Query took 1.536431023s
+Result: 20
+Query took 1.548129734s
+Result: 20
+Query took 1.48530126s
+Result: 20
+Query took 1.546927205s
+Result: 20
+Query took 1.548967419s
+Result: 20
+Query took 1.529350337s
+Result: 20
+Query took 1.531830289s
+Result: 20
+Query took 1.538020573s
+Result: 20
+Query took 1.542986752s
+Result: 20
+Query took 1.531682487s
+Result: 20
+Query took 1.546387789s
+Result: 5
+Query took 1.587346908s
+Result: 20
+Query took 1.552363424s
+Result: 20
+Query took 1.554374798s
+Result: 20
+Query took 1.591359057s
+Result: 20
+Query took 1.602589151s
+Result: 20
+Query took 1.541991908s
+Result: 5
+Query took 1.573908577s
+Result: 20
+Query took 1.554076175s
+Result: 20
+Query took 1.504437103s
+Result: 20
+Query took 1.505349896s
+Result: 20
+Query took 1.568955684s
+Result: 20
+Query took 1.54646904s
+Result: 20
+Query took 1.571948944s
+Result: 20
+Query took 1.579147342s
+Result: 20
+Query took 1.574691323s
+Result: 20
+Query took 1.553294348s
+Result: 20
+Query took 1.56258043s
+Result: 20
+Query took 1.574012678s
+Result: 20
+Query took 1.581802446s
+Result: 20
+Query took 1.619820182s
+Result: 20
+Query took 1.651351516s
+Result: 20
+Query took 1.619450661s
+Result: 20
+Query took 1.600046924s
+Result: 20
+Query took 1.586457907s
+Result: 20
+Query took 1.59680208s
+Result: 20
+Query took 1.578427267s
+Result: 20
+Query took 1.53352024s
+Result: 20
+Query took 1.65693028s
+Result: 20
+Query took 1.594156409s
+Result: 20
+Query took 1.662047851s
+Result: 20
+Query took 1.594920555s
+Result: 20
+Query took 1.647006548s
+Result: 20
+Query took 1.608703654s
+Result: 20
+Query took 1.64518174s
+Result: 20
+Query took 1.684903441s
+Result: 20
+Query took 1.67665378s
+Result: 20
+Query took 1.591809857s
+Result: 20
+Query took 1.585012458s
+Result: 20
+Query took 1.614182981s
+Result: 20
+Query took 1.653981898s
+Result: 20
+Query took 1.550050725s
+Result: 20
+Query took 1.644399193s
+Result: 20
+Query took 1.599263699s
+Result: 20
+Query took 1.625305742s
+Result: 20
+Query took 1.62232591s
+Result: 20
+Query took 1.555821377s
+Result: 20
+Query took 1.649333967s
+Result: 20
+Query took 1.599433749s
+Result: 20
+Query took 1.564912931s
+Result: 20
+Query took 1.61357962s
+Result: 20
+Query took 1.684076224s
+Result: 20
+Query took 1.656526529s
+Result: 20
+Query took 1.610238913s
+Result: 20
+Query took 1.636673656s
+Result: 20
+Query took 1.678376786s
+Result: 20
+Query took 1.617987422s
+Result: 20
+Query took 1.66564242s
+Result: 20
+Query took 1.615934338s
+Result: 20
+Query took 1.622820539s
+Result: 20
+Query took 1.669114964s
+Result: 20
+Query took 1.685220586s
+Result: 20
+Query took 1.671805654s
+Result: 20
+Query took 1.697716662s
+Result: 20
+Query took 1.613752272s
+Result: 20
+Query took 1.634521037s
+Result: 20
+Query took 1.61462641s
+Result: 20
+Query took 1.651297112s
+Result: 20
+Query took 1.707483742s
+Result: 20
+Query took 1.684360927s
+Result: 20
+Query took 1.680683575s
+Result: 20
+Query took 1.655333218s
+Result: 20
+Query took 1.626607994s
+Result: 20
+Query took 1.631969981s
+Result: 20
+Query took 1.63946162s
+Result: 20
+Query took 1.590298424s
+Result: 20
+Query took 1.646999048s
+Result: 20
+Query took 1.655827338s
+Result: 20
+Query took 1.591512686s
+Result: 20
+Query took 1.692068743s
+Result: 20
+Query took 1.646907075s
+Result: 20
+Query took 1.667644786s
+Result: 20
+Query took 1.648609108s
+Result: 20
+Query took 1.658695986s
+Result: 20
+Query took 1.640229689s
+Result: 20
+Query took 1.645388345s
+Result: 20
+Query took 1.665768083s
+Result: 20
+Query took 1.66427347s
+Result: 20
+Query took 1.675429763s
+Result: 20
+Query took 1.654999653s
+Result: 20
+Query took 1.662952427s
+Result: 20
+Query took 1.708908876s
+Result: 20
+Query took 1.73479857s
+Result: 20
+Query took 1.721462605s
+Result: 20
+Query took 1.702947321s
+Result: 20
+Query took 1.714017786s
+Result: 20
+Query took 1.744701562s
+Result: 20
+Query took 1.678984725s
+Result: 20
+Query took 1.712331855s
+Result: 20
+Query took 1.737462021s
+Result: 20
+Query took 1.709161834s
+Result: 20
+Query took 1.715718045s
+Result: 20
+Query took 1.719990434s
+Result: 20
+Query took 1.742337336s
+Result: 20
+Query took 1.727799158s
+Result: 20
+Query took 1.724632397s
+Result: 20
+Query took 1.690836838s
+Result: 20
+Query took 1.672129418s
+Result: 20
+Query took 1.733734329s
+Result: 20
+Query took 1.677225107s
+Result: 20
+Query took 1.664504309s
+Result: 20
+Query took 1.731359888s
+Result: 20
+Query took 1.722521817s
+Result: 20
+Query took 1.72923068s
+Result: 20
+Query took 1.735765768s
+Result: 20
+Query took 1.755625005s
+Result: 20
+Query took 1.691703713s
+Result: 20
+Query took 1.707569902s
+Result: 20
+Query took 1.738282983s
+Result: 3
+Query took 1.684804456s
+Result: 20
+Query took 1.694873548s
+Result: 20
+Query took 1.737619719s
+Result: 20
+Query took 1.705988932s
+Result: 20
+Query took 1.707187717s
+Result: 20
+Query took 1.715902112s
+Result: 20
+Query took 1.737179253s
+Result: 20
+Query took 1.717126896s
+Result: 20
+Query took 1.694573448s
+Result: 20
+Query took 1.694997034s
+Result: 20
+Query took 1.770983657s
+Result: 20
+Query took 1.747856178s
+Result: 20
+Query took 1.717931991s
+Result: 20
+Query took 1.756171575s
+Result: 20
+Query took 1.696492242s
+Result: 20
+Query took 1.701679433s
+Result: 20
+Query took 1.698581589s
+Result: 20
+Query took 1.704428914s
+Result: 20
+Query took 1.705595325s
+Result: 20
+Query took 1.706786793s
+Result: 20
+Query took 1.710837547s
+Result: 20
+Query took 1.708930939s
+Result: 20
+Query took 1.774896542s
+Result: 20
+Query took 1.785414271s
+Result: 20
+Query took 1.71420845s
+Result: 20
+Query took 1.763584058s
+Result: 20
+Query took 1.774224369s
+Result: 20
+Query took 1.766218858s
+Result: 20
+Query took 1.740937998s
+Result: 20
+Query took 1.780231971s
+Result: 20
+Query took 1.7719025s
+Result: 20
+Query took 1.746576747s
+Result: 20
+Query took 1.797632133s
+Result: 20
+Query took 1.715491819s
+Result: 20
+Query took 1.719195598s
+Result: 20
+Query took 1.821373257s
+Result: 20
+Query took 1.72161795s
+Result: 20
+Query took 1.794991498s
+Result: 20
+Query took 1.779756077s
+Result: 20
+Query took 1.786029195s
+Result: 20
+Query took 1.736256686s
+Result: 20
+Query took 1.778645952s
+Result: 20
+Query took 1.748774099s
+Result: 20
+Query took 1.745157856s
+Result: 20
+Query took 1.756045774s
+Result: 20
+Query took 1.747292084s
+Result: 20
+Query took 1.739186257s
+Result: 20
+Query took 1.740026428s
+Result: 20
+Query took 1.731156277s
+Result: 20
+Query took 1.82311676s
+Result: 20
+Query took 1.754314866s
+Result: 20
+Query took 1.753435848s
+Result: 20
+Query took 1.825579579s
+Result: 20
+Query took 1.793053196s
+Result: 20
+Query took 1.794605331s
+Result: 20
+Query took 1.825141481s
+Result: 20
+Query took 1.741252913s
+Result: 20
+Query took 1.742961068s
+Result: 20
+Query took 1.749561634s
+Result: 20
+Query took 1.780260957s
+Result: 20
+Query took 1.708423975s
+Result: 20
+Query took 1.770786595s
+Result: 20
+Query took 1.833699507s
+Result: 20
+Query took 1.805923137s
+Result: 20
+Query took 1.750373439s
+Result: 20
+Query took 1.760997901s
+Result: 20
+Query took 1.753596717s
+Result: 20
+Query took 1.777805024s
+Result: 20
+Query took 1.811559093s
+Result: 20
+Query took 1.812275173s
+Result: 20
+Query took 1.756733616s
+Result: 20
+Query took 1.768995044s
+Result: 20
+Query took 1.782932634s
+Result: 20
+Query took 1.816866929s
+Result: 20
+Query took 1.818993969s
+Result: 20
+Query took 1.786153059s
+Result: 20
+Query took 1.767995007s
+Result: 20
+Query took 1.827101706s
+Result: 20
+Query took 1.77924501s
+Result: 20
+Query took 1.729981338s
+Result: 20
+Query took 1.791675062s
+Result: 20
+Query took 1.803534304s
+Result: 20
+Query took 1.780489574s
+Result: 20
+Query took 1.78156061s
+Result: 20
+Query took 1.797367081s
+Result: 20
+Query took 1.858690355s
+Result: 20
+Query took 1.73825817s
+Result: 20
+Query took 1.775717068s
+Result: 20
+Query took 1.847376494s
+Result: 20
+Query took 1.803184908s
+Result: 20
+Query took 1.800487766s
+Result: 20
+Query took 1.780147093s
+Result: 20
+Query took 1.782059754s
+Result: 20
+Query took 1.850447079s
+Result: 20
+Query took 1.859793435s
+Result: 20
+Query took 1.842114607s
+Result: 20
+Query took 1.843941041s
+Result: 20
+Query took 1.788771111s
+Result: 20
+Query took 1.794996552s
+Result: 20
+Query took 1.814448427s
+Result: 20
+Query took 1.846686782s
+Result: 20
+Query took 1.801977637s
+Result: 20
+Query took 1.757342376s
+Result: 20
+Query took 1.894675339s
+Result: 20
+Query took 1.808970753s
+Result: 20
+Query took 1.821711421s
+Result: 20
+Query took 1.863250859s
+Result: 20
+Query took 1.799039415s
+Result: 20
+Query took 1.76290354s
+Result: 20
+Query took 1.825598374s
+Result: 20
+Query took 1.858684216s
+Result: 20
+Query took 1.894512507s
+Result: 20
+Query took 1.822920395s
+Result: 20
+Query took 1.815892779s
+Result: 20
+Query took 1.835328894s
+Result: 20
+Query took 1.8141965s
+Result: 20
+Query took 1.809232755s
+Result: 20
+Query took 1.877053434s
+Result: 20
+Query took 1.835087406s
+Result: 20
+Query took 1.828140286s
+Result: 20
+Query took 1.824540468s
+Result: 20
+Query took 1.891118551s
+Result: 20
+Query took 1.757700891s
+Result: 20
+Query took 1.844992815s
+Result: 20
+Query took 1.885181321s
+Result: 20
+Query took 1.923996189s
+Result: 20
+Query took 1.834170115s
+Result: 20
+Query took 1.84235452s
+Result: 20
+Query took 1.822203068s
+Result: 20
+Query took 1.838873709s
+Result: 20
+Query took 1.860893082s
+Result: 13
+Query took 1.835005686s
+Result: 20
+Query took 1.836693679s
+Result: 20
+Query took 1.834306243s
+Result: 20
+Query took 1.835777048s
+Result: 20
+Query took 1.887305843s
+Result: 20
+Query took 1.861449116s
+Result: 20
+Query took 1.847313904s
+Result: 20
+Query took 1.904411173s
+Result: 20
+Query took 1.850016579s
+Result: 20
+Query took 1.840345044s
+Result: 20
+Query took 1.801378344s
+Result: 13
+Query took 1.863982922s
+Result: 20
+Query took 1.915353208s
+Result: 20
+Query took 1.792266632s
+Result: 20
+Query took 1.857282232s
+Result: 20
+Query took 1.842365192s
+Result: 20
+Query took 1.913890955s
+Result: 20
+Query took 1.90243632s
+Result: 20
+Query took 1.847394746s
+Result: 20
+Query took 1.858284645s
+Result: 20
+Query took 1.811209344s
+Result: 20
+Query took 1.909587254s
+Result: 17
+Query took 1.855210846s
+Result: 20
+Query took 1.909074706s
+Result: 20
+Query took 1.877184982s
+Result: 20
+Query took 1.854426403s
+Result: 20
+Query took 1.80382571s
+Result: 20
+Query took 1.92966072s
+Result: 20
+Query took 1.870353307s
+Result: 20
+Query took 1.923834891s
+Result: 20
+Query took 1.831694994s
+Result: 20
+Query took 1.968708741s
+Result: 20
+Query took 1.931876644s
+Result: 20
+Query took 1.891746246s
+Result: 20
+Query took 1.88909887s
+Result: 20
+Query took 1.883110678s
+Result: 20
+Query took 1.927378807s
+Result: 20
+Query took 1.9416327s
+Result: 20
+Query took 1.97688954s
+Result: 20
+Query took 1.897472026s
+Result: 20
+Query took 1.874568536s
+Result: 20
+Query took 1.916704999s
+Result: 20
+Query took 1.904530076s
+Result: 20
+Query took 1.929326766s
+Result: 20
+Query took 1.972953971s
+Result: 20
+Query took 1.927587439s
+Result: 20
+Query took 1.917229938s
+Result: 20
+Query took 1.999792061s
+Result: 20
+Query took 1.919682406s
+Result: 20
+Query took 1.880777875s
+Result: 20
+Query took 1.934031845s
+Result: 20
+Query took 1.943689797s
+Result: 20
+Query took 1.982970861s
+Result: 20
+Query took 1.931648795s
+Result: 3
+Query took 1.987556468s
+Result: 20
+Query took 2.007666421s
+Result: 20
+Query took 1.947493386s
+Result: 20
+Query took 1.935938786s
+Result: 20
+Query took 1.92253528s
+Result: 20
+Query took 1.948012877s
+Result: 20
+Query took 1.924439249s
+Result: 20
+Query took 1.980047369s
+Result: 20
+Query took 2.001894476s
+Result: 20
+Query took 2.003342712s
+Result: 20
+Query took 1.952286845s
+Result: 20
+Query took 1.9496483s
+Result: 20
+Query took 1.953340718s
+Result: 20
+Query took 1.954199723s
+Result: 20
+Query took 1.904464787s
+Result: 20
+Query took 2.003007049s
+Result: 20
+Query took 1.938569396s
+Result: 20
+Query took 2.000868499s
+Result: 20
+Query took 2.00686934s
+Result: 20
+Query took 1.951318756s
+Result: 20
+Query took 1.888387782s
+Result: 20
+Query took 1.942703231s
+Result: 20
+Query took 1.908346828s
+Result: 5
+Query took 1.970103978s
+Result: 20
+Query took 1.947886891s
+Result: 20
+Query took 2.004979836s
+Result: 20
+Query took 1.962661251s
+Result: 20
+Query took 1.975093593s
+Result: 20
+Query took 1.956096834s
+Result: 20
+Query took 1.904118583s
+Result: 20
+Query took 2.015420488s
+Result: 20
+Query took 2.02040769s
+Result: 20
+Query took 1.918790516s
+Result: 20
+Query took 1.972362488s
+Result: 20
+Query took 1.988400015s
+Result: 20
+Query took 1.979875422s
+Result: 20
+Query took 1.985766261s
+Result: 20
+Query took 1.93026046s
+Result: 20
+Query took 2.033150436s
+Result: 20
+Query took 2.049073278s
+Result: 20
+Query took 1.991015079s
+Result: 20
+Query took 1.908355224s
+Result: 20
+Query took 1.983358476s
+Result: 20
+Query took 2.027352491s
+Result: 20
+Query took 1.984776079s
+Result: 20
+Query took 1.973086913s
+Result: 20
+Query took 2.050072269s
+Result: 20
+Query took 2.041458041s
+Result: 20
+Query took 2.065670297s
+Result: 20
+Query took 2.038896899s
+Result: 20
+Query took 2.068724504s
+Result: 20
+Query took 1.980337942s
+Result: 20
+Query took 1.996896956s
+Result: 20
+Query took 1.997804064s
+Result: 20
+Query took 2.008630917s
+Result: 20
+Query took 2.041005938s
+Result: 20
+Query took 2.046036079s
+Result: 20
+Query took 1.995319801s
+Result: 20
+Query took 1.950939684s
+Result: 20
+Query took 1.989834053s
+Result: 20
+Query took 2.006080833s
+Result: 20
+Query took 1.99074589s
+Result: 20
+Query took 2.060188237s
+Result: 20
+Query took 2.055953937s
+Result: 20
+Query took 2.061675705s
+Result: 20
+Query took 2.0530085s
+Result: 20
+Query took 1.997244108s
+Result: 20
+Query took 2.060775488s
+Result: 16
+Query took 2.028750247s
+Result: 20
+Query took 2.015882439s
+Result: 20
+Query took 2.063204117s
+Result: 20
+Query took 2.032181232s
+Result: 20
+Query took 2.023062112s
+Result: 20
+Query took 1.95166782s
+Result: 20
+Query took 2.015827597s
+Result: 20
+Query took 2.008539349s
+Result: 20
+Query took 2.099513592s
+Result: 20
+Query took 1.967063624s
+Result: 20
+Query took 2.042730044s
+Result: 20
+Query took 2.019065083s
+Result: 20
+Query took 2.077934889s
+Result: 20
+Query took 2.079778543s
+Result: 20
+Query took 2.048557804s
+Result: 20
+Query took 2.021580599s
+Result: 20
+Query took 2.056655495s
+Result: 20
+Query took 2.042457523s
+Result: 20
+Query took 2.04852241s
+Result: 13
+Query took 2.031099359s
+Result: 20
+Query took 2.030723092s
+Result: 20
+Query took 2.042215456s
+Result: 20
+Query took 2.057840686s
+Result: 20
+Query took 2.035355783s
+Result: 20
+Query took 2.050959206s
+Result: 20
+Query took 2.059831105s
+Result: 20
+Query took 2.090386262s
+Result: 20
+Query took 2.095985295s
+Result: 20
+Query took 2.004954365s
+Result: 20
+Query took 2.036957667s
+Result: 20
+Query took 2.05926574s
+Result: 20
+Query took 2.097561543s
+Result: 20
+Query took 2.117095281s
+Result: 20
+Query took 2.011028784s
+Result: 20
+Query took 2.101796621s
+Result: 20
+Query took 2.10845555s
+Result: 20
+Query took 2.115508129s
+Result: 20
+Query took 2.069402227s
+Result: 20
+Query took 2.019036012s
+Result: 20
+Query took 2.108321343s
+Result: 20
+Query took 2.067477607s
+Result: 20
+Query took 2.079626269s
+Result: 20
+Query took 2.0704016s
+Result: 20
+Query took 2.122058507s
+Result: 20
+Query took 2.124480427s
+Result: 20
+Query took 2.125954514s
+Result: 20
+Query took 2.022295711s
+Result: 20
+Query took 2.081643664s
+Result: 20
+Query took 2.119460987s
+Result: 20
+Query took 2.120620109s
+Result: 20
+Query took 2.092947863s
+Result: 20
+Query took 2.075878703s
+Result: 20
+Query took 2.124118025s
+Result: 20
+Query took 2.093206711s
+Result: 20
+Query took 2.143791366s
+Result: 20
+Query took 2.024819683s
+Result: 20
+Query took 2.074553124s
+Result: 20
+Query took 2.03468622s
+Result: 20
+Query took 2.102528207s
+Result: 20
+Query took 2.103802612s
+Result: 20
+Query took 2.037918908s
+Result: 20
+Query took 2.041997101s
+Result: 20
+Query took 2.143533564s
+Result: 20
+Query took 2.140779115s
+Result: 20
+Query took 2.089125012s
+Result: 20
+Query took 2.143320662s
+Result: 20
+Query took 2.144395911s
+Result: 20
+Query took 2.103786655s
+Result: 20
+Query took 2.113909903s
+Result: 20
+Query took 2.146289151s
+Result: 20
+Query took 2.191654163s
+Result: 20
+Query took 2.092124891s
+Result: 20
+Query took 2.179104817s
+Result: 20
+Query took 2.151849307s
+Result: 20
+Query took 2.10229552s
+Result: 20
+Query took 2.159686249s
+Result: 20
+Query took 2.150658137s
+Result: 20
+Query took 2.160538741s
+Result: 20
+Query took 2.116029159s
+Result: 20
+Query took 2.097577874s
+Result: 20
+Query took 2.158931272s
+Result: 20
+Query took 2.165255249s
+Result: 20
+Query took 2.119744531s
+Result: 20
+Query took 2.111588603s
+Result: 20
+Query took 2.158591285s
+Result: 20
+Query took 2.166653126s
+Result: 20
+Query took 2.14032417s
+Result: 20
+Query took 2.121306004s
+Result: 20
+Query took 2.132823672s
+Result: 20
+Query took 2.073077387s
+Result: 20
+Query took 2.130373269s
+Result: 20
+Query took 2.109968273s
+Result: 10
+Query took 2.167811034s
+Result: 19
+Query took 2.128895656s
+Result: 20
+Query took 2.189822179s
+Result: 13
+Query took 2.115290788s
+Result: 20
+Query took 2.140348454s
+Result: 20
+Query took 2.132141933s
+Result: 20
+Query took 2.203183298s
+Result: 20
+Query took 2.127215012s
+Result: 20
+Query took 2.181713545s
+Result: 20
+Query took 2.060223168s
+Result: 20
+Query took 2.177997335s
+Result: 20
+Query took 2.139296085s
+Result: 20
+Query took 2.210206367s
+Result: 20
+Query took 2.197127977s
+Result: 20
+Query took 2.142390094s
+Result: 20
+Query took 2.156645134s
+Result: 20
+Query took 2.1505899s
+Result: 20
+Query took 2.20681837s
+Result: 20
+Query took 2.131402515s
+Result: 20
+Query took 2.158679505s
+Result: 20
+Query took 2.19086997s
+Result: 15
+Query took 2.171889495s
+Result: 20
+Query took 2.202605771s
+Result: 20
+Query took 2.101393603s
+Result: 20
+Query took 2.173426047s
+Result: 20
+Query took 2.139420046s
+Result: 20
+Query took 2.151073087s
+Result: 20
+Query took 2.238034238s
+Result: 18
+Query took 2.159644408s
+Result: 20
+Query took 2.145682979s
+Result: 20
+Query took 2.207873955s
+Result: 20
+Query took 2.146910356s
+Result: 20
+Query took 2.176508665s
+Result: 9
+Query took 2.218508436s
+Result: 20
+Query took 2.168392728s
+Result: 20
+Query took 2.178954712s
+Result: 20
+Query took 2.182771632s
+Result: 20
+Query took 2.215002935s
+Result: 20
+Query took 2.178386112s
+Result: 20
+Query took 2.161425021s
+Result: 20
+Query took 2.163362692s
+Result: 20
+Query took 2.220839144s
+Result: 20
+Query took 2.175371363s
+Result: 20
+Query took 2.223876724s
+Result: 20
+Query took 2.252414321s
+Result: 20
+Query took 2.248599787s
+Result: 20
+Query took 2.190030279s
+Result: 6
+Query took 2.179356301s
+Result: 20
+Query took 2.228334171s
+Result: 17
+Query took 2.168045201s
+Result: 20
+Query took 2.167742s
+Result: 5
+Query took 2.198046019s
+Result: 20
+Query took 2.18450294s
+Result: 20
+Query took 2.195801675s
+Result: 20
+Query took 2.257922561s
+Result: 20
+Query took 2.259273971s
+Result: 20
+Query took 2.292559995s
+Result: 20
+Query took 2.210582172s
+Result: 20
+Query took 2.231086721s
+Result: 20
+Query took 2.287621924s
+Result: 20
+Query took 2.228787172s
+Result: 20
+Query took 2.220716952s
+Result: 20
+Query took 2.227446153s
+Result: 20
+Query took 2.219058802s
+Result: 20
+Query took 2.243533103s
+Result: 20
+Query took 2.271923466s
+Result: 20
+Query took 2.272135817s
+Result: 20
+Query took 2.247283107s
+Result: 20
+Query took 2.238650624s
+Result: 20
+Query took 2.276155771s
+Result: 10
+Query took 2.224212123s
+Result: 20
+Query took 2.232596132s
+Result: 20
+Query took 2.279145464s
+Result: 20
+Query took 2.234692922s
+Result: 20
+Query took 2.286975074s
+Result: 9
+Query took 2.281805299s
+Result: 20
+Query took 2.256495282s
+Result: 20
+Query took 2.328212609s
+Result: 20
+Query took 2.244511786s
+Result: 20
+Query took 2.236381473s
+Result: 20
+Query took 2.292109815s
+Result: 20
+Query took 2.227027863s
+Result: 20
+Query took 2.250181515s
+Result: 20
+Query took 2.24753653s
+Result: 20
+Query took 2.248803172s
+Result: 20
+Query took 2.29527046s
+Result: 20
+Query took 2.310259296s
+Result: 20
+Query took 2.240211806s
+Result: 20
+Query took 2.20009027s
+Result: 20
+Query took 2.270566096s
+Result: 20
+Query took 2.253124886s
+Result: 20
+Query took 2.30043437s
+Result: 20
+Query took 2.255410348s
+Result: 20
+Query took 2.265441847s
+Result: 20
+Query took 2.251362258s
+Result: 20
+Query took 2.263359112s
+Result: 20
+Query took 2.274439366s
+Result: 20
+Query took 2.286019812s
+Result: 20
+Query took 2.276360415s
+Result: 20
+Query took 2.281705716s
+Result: 20
+Query took 2.313640296s
+Result: 3
+Query took 2.269352939s
+Result: 20
+Query took 2.280501882s
+Result: 20
+Query took 2.267464178s
+Result: 20
+Query took 2.324735309s
+Result: 20
+Query took 2.319864451s
+Result: 20
+Query took 2.294954883s
+Result: 20
+Query took 2.331745572s
+Result: 20
+Query took 2.262232418s
+Result: 20
+Query took 2.288138877s
+Result: 20
+Query took 2.227605159s
+Result: 20
+Query took 2.229012153s
+Result: 20
+Query took 2.342812822s
+Result: 20
+Query took 2.283540546s
+Result: 20
+Query took 2.339734542s
+Result: 20
+Query took 2.341002452s
+Result: 20
+Query took 2.341982107s
+Result: 20
+Query took 2.308031492s
+Result: 20
+Query took 2.341829955s
+Result: 20
+Query took 2.276432017s
+Result: 20
+Query took 2.333368867s
+Result: 20
+Query took 2.363159894s
+Result: 20
+Query took 2.294816103s
+Result: 20
+Query took 2.346940518s
+Result: 20
+Query took 2.342654007s
+Result: 20
+Query took 2.352410294s
+Result: 20
+Query took 2.350826343s
+Result: 20
+Query took 2.34598819s
+Result: 20
+Query took 2.297301687s
+Result: 20
+Query took 2.352504963s
+Result: 20
+Query took 2.299447271s
+Result: 20
+Query took 2.360181212s
+Result: 20
+Query took 2.375974213s
+Result: 20
+Query took 2.319900916s
+Result: 20
+Query took 2.398049331s
+Result: 20
+Query took 2.398090483s
+Result: 2
+Query took 2.329327504s
+Result: 20
+Query took 2.380707152s
+Result: 20
+Query took 2.372110751s
+Result: 20
+Query took 2.354974355s
+Result: 20
+Query took 2.262447417s
+Result: 20
+Query took 2.334506604s
+Result: 20
+Query took 2.329082571s
+Result: 20
+Query took 2.301731151s
+Result: 20
+Query took 2.369765253s
+Result: 20
+Query took 2.395125084s
+Result: 20
+Query took 2.311917844s
+Result: 20
+Query took 2.377512317s
+Result: 20
+Query took 2.327248638s
+Result: 20
+Query took 2.317867762s
+Result: 20
+Query took 2.320646382s
+Result: 20
+Query took 2.31806952s
+Result: 20
+Query took 2.366687289s
+Result: 20
+Query took 2.319963149s
+Result: 20
+Query took 2.3853241s
+Result: 20
+Query took 2.401312s
+Result: 20
+Query took 2.335429646s
+Result: 20
+Query took 2.380239604s
+Result: 20
+Query took 2.385741027s
+Result: 20
+Query took 2.334491769s
+Result: 20
+Query took 2.333117872s
+Result: 20
+Query took 2.34207808s
+Result: 20
+Query took 2.335019846s
+Result: 20
+Query took 2.343920315s
+Result: 20
+Query took 2.412420175s
+Result: 20
+Query took 2.351526452s
+Result: 20
+Query took 2.329880579s
+Result: 14
+Query took 2.333937237s
+Result: 20
+Query took 2.341913092s
+Result: 20
+Query took 2.342473556s
+Result: 20
+Query took 2.39437722s
+Result: 20
+Query took 2.352724228s
+Result: 20
+Query took 2.350075051s
+Result: 20
+Query took 2.345074722s
+Result: 20
+Query took 2.403164214s
+Result: 20
+Query took 2.368100839s
+Result: 20
+Query took 2.374608936s
+Result: 20
+Query took 2.354985693s
+Result: 20
+Query took 2.408759925s
+Result: 20
+Query took 2.404266126s
+Result: 20
+Query took 2.373842013s
+Result: 20
+Query took 2.413274146s
+Result: 20
+Query took 2.401923085s
+Result: 20
+Query took 2.414239418s
+Result: 20
+Query took 2.416444922s
+Result: 20
+Query took 2.417459202s
+Result: 20
+Query took 2.422286987s
+Result: 20
+Query took 2.419112363s
+Result: 20
+Query took 2.365878395s
+Result: 20
+Query took 2.423889906s
+Result: 20
+Query took 2.420620181s
+Result: 20
+Query took 2.421428853s
+Result: 20
+Query took 2.371548713s
+Result: 20
+Query took 2.380990727s
+Result: 20
+Query took 2.369691326s
+Result: 20
+Query took 2.37859234s
+Result: 20
+Query took 2.427106163s
+Result: 20
+Query took 2.451951762s
+Result: 20
+Query took 2.32635767s
+Result: 20
+Query took 2.454347821s
+Result: 16
+Query took 2.441131816s
+Result: 20
+Query took 2.381075495s
+Result: 20
+Query took 2.313941874s
+Result: 20
+Query took 2.393291113s
+Result: 20
+Query took 2.337438552s
+Result: 20
+Query took 2.442483678s
+Result: 20
+Query took 2.434423888s
+Result: 20
+Query took 2.389094357s
+Result: 20
+Query took 2.436113591s
+Result: 20
+Query took 2.343237932s
+Result: 20
+Query took 2.452143366s
+Result: 20
+Query took 2.416921849s
+Result: 20
+Query took 2.440833503s
+Result: 20
+Query took 2.384646227s
+Result: 2
+Query took 2.452553246s
+Result: 20
+Query took 2.394939846s
+Result: 10
+Query took 2.446184047s
+Result: 20
+Query took 2.341886596s
+Result: 20
+Query took 2.397485638s
+Result: 20
+Query took 2.399478919s
+Result: 20
+Query took 2.45541725s
+Result: 20
+Query took 2.424540722s
+Result: 20
+Query took 2.429738167s
+Result: 20
+Query took 2.426556606s
+Result: 20
+Query took 2.459112319s
+Result: 20
+Query took 2.410322449s
+Result: 20
+Query took 2.39950732s
+Result: 20
+Query took 2.486804048s
+Result: 19
+Query took 2.408188189s
+Result: 20
+Query took 2.46527211s
+Result: 20
+Query took 2.434931588s
+Result: 20
+Query took 2.471306985s
+Result: 20
+Query took 2.464744248s
+Result: 20
+Query took 2.371626123s
+Result: 20
+Query took 2.438809459s
+Result: 20
+Query took 2.42431441s
+Result: 20
+Query took 2.422447132s
+Result: 20
+Query took 2.474466206s
+Result: 20
+Query took 2.470999036s
+Result: 20
+Query took 2.421192271s
+Result: 20
+Query took 2.477194661s
+Result: 20
+Query took 2.432245664s
+Result: 20
+Query took 2.479716742s
+Result: 20
+Query took 2.449661075s
+Result: 20
+Query took 2.482116097s
+Result: 20
+Query took 2.432081207s
+Result: 20
+Query took 2.429320075s
+Result: 20
+Query took 2.454937815s
+Result: 20
+Query took 2.494049072s
+Result: 20
+Query took 2.495846127s
+Result: 20
+Query took 2.444834219s
+Result: 20
+Query took 2.460254334s
+Result: 20
+Query took 2.443264557s
+Result: 20
+Query took 2.468123691s
+Result: 20
+Query took 2.492294314s
+Result: 20
+Query took 2.465054218s
+Result: 20
+Query took 2.494037002s
+Result: 20
+Query took 2.47277892s
+Result: 20
+Query took 2.524677455s
+Result: 20
+Query took 2.470183027s
+Result: 20
+Query took 2.503337686s
+Result: 20
+Query took 2.452175586s
+Result: 20
+Query took 2.453834674s
+Result: 20
+Query took 2.451430164s
+Result: 20
+Query took 2.507826279s
+Result: 20
+Query took 2.503005327s
+Result: 20
+Query took 2.447943705s
+Result: 9
+Query took 2.469867933s
+Result: 20
+Query took 2.456415877s
+Result: 20
+Query took 2.467291102s
+Result: 20
+Query took 2.509405204s
+Result: 20
+Query took 2.476764232s
+Result: 20
+Query took 2.464951243s
+Result: 20
+Query took 2.546128035s
+Result: 20
+Query took 2.523483883s
+Result: 20
+Query took 2.524674972s
+Result: 20
+Query took 2.523350307s
+Result: 5
+Query took 2.526663044s
+Result: 20
+Query took 2.527227555s
+Result: 20
+Query took 2.472179467s
+Result: 20
+Query took 2.471721055s
+Result: 20
+Query took 2.529070027s
+Result: 20
+Query took 2.49096652s
+Result: 20
+Query took 2.491840585s
+Result: 20
+Query took 2.53419167s
+Result: 20
+Query took 2.479227898s
+Result: 20
+Query took 2.480093171s
+Result: 20
+Query took 2.480336336s
+Result: 20
+Query took 2.488126374s
+Result: 20
+Query took 2.542987144s
+Result: 20
+Query took 2.48524619s
+Result: 20
+Query took 2.495697317s
+Result: 16
+Query took 2.48228576s
+Result: 20
+Query took 2.487888898s
+Result: 20
+Query took 2.508696461s
+Result: 20
+Query took 2.537353778s
+Result: 20
+Query took 2.541134584s
+Result: 7
+Query took 2.546384067s
+Result: 20
+Query took 2.497478464s
+Result: 20
+Query took 2.498708173s
+Result: 20
+Query took 2.443355905s
+Result: 20
+Query took 2.485504282s
+Result: 20
+Query took 2.603785445s
+Result: 20
+Query took 2.473597545s
+Result: 20
+Query took 2.538049046s
+Result: 20
+Query took 2.523651024s
+Result: 20
+Query took 2.581871357s
+Result: 20
+Query took 2.524373055s
+Result: 20
+Query took 2.584236929s
+Result: 20
+Query took 2.575982s
+Result: 20
+Query took 2.58106785s
+Result: 20
+Query took 2.550449136s
+Result: 20
+Query took 2.5516782s
+Result: 20
+Query took 2.580417879s
+Result: 20
+Query took 2.553864585s
+Result: 20
+Query took 2.592812239s
+Result: 20
+Query took 2.551792882s
+Result: 20
+Query took 2.552474323s
+Result: 20
+Query took 2.586127091s
+Result: 20
+Query took 2.555689579s
+Result: 20
+Query took 2.59365123s
+Result: 20
+Query took 2.594875565s
+Result: 20
+Query took 2.563512564s
+Result: 20
+Query took 2.597216874s
+Result: 20
+Query took 2.546791991s
+Result: 20
+Query took 2.600072656s
+Result: 20
+Query took 2.545173137s
+Result: 20
+Query took 2.551337324s
+Result: 20
+Query took 2.598963399s
+Result: 20
+Query took 2.610604383s
+Result: 20
+Query took 2.573912498s
+Result: 20
+Query took 2.613684672s
+Result: 20
+Query took 2.577312459s
+Result: 20
+Query took 2.610960297s
+Result: 20
+Query took 2.559784143s
+Result: 20
+Query took 2.613798128s
+Result: 20
+Query took 2.60761294s
+Result: 20
+Query took 2.582953106s
+Result: 20
+Query took 2.622104297s
+Result: 20
+Query took 2.623040808s
+Result: 20
+Query took 2.512165278s
+Result: 20
+Query took 2.569243777s
+Result: 20
+Query took 2.589116228s
+Result: 20
+Query took 2.627638447s
+Result: 20
+Query took 2.6290459s
+Result: 20
+Query took 2.625440088s
+Result: 20
+Query took 2.626645377s
+Result: 20
+Query took 2.633514649s
+Result: 20
+Query took 2.634106752s
+Result: 20
+Query took 2.636684565s
+Result: 20
+Query took 2.632418528s
+Result: 20
+Query took 2.633807992s
+Result: 17
+Query took 2.63424663s
+Result: 20
+Query took 2.641081944s
+Result: 20
+Query took 2.65999098s
+Result: 20
+Query took 2.661102385s
+Result: 20
+Query took 2.639799584s
+Result: 20
+Query took 2.646179394s
+Result: 20
+Query took 2.655928935s
+Result: 20
+Query took 2.591555427s
+Result: 17
+Query took 2.643666139s
+Result: 20
+Query took 2.594257389s
+Result: 20
+Query took 2.655397712s
+Result: 20
+Query took 2.592732012s
+Result: 20
+Query took 2.654925241s
+Result: 20
+Query took 2.595239314s
+Result: 20
+Query took 2.620461263s
+Result: 20
+Query took 2.598602846s
+Result: 20
+Query took 2.61482094s
+Result: 20
+Query took 2.661887261s
+Result: 20
+Query took 2.596733287s
+Result: 20
+Query took 2.618300806s
+Result: 15
+Query took 2.674154586s
+Result: 20
+Query took 2.656200449s
+Result: 20
+Query took 2.565077356s
+Result: 20
+Query took 2.626166584s
+Result: 20
+Query took 2.602360594s
+Result: 20
+Query took 2.680396297s
+Result: 20
+Query took 2.574516981s
+Result: 20
+Query took 2.673072296s
+Result: 20
+Query took 2.618402398s
+Result: 20
+Query took 2.632079571s
+Result: 20
+Query took 2.611080017s
+Result: 20
+Query took 2.695925493s
+Result: 20
+Query took 2.626315675s
+Result: 20
+Query took 2.617507251s
+Result: 20
+Query took 2.616005973s
+Result: 16
+Query took 2.616229116s
+Result: 20
+Query took 2.64207878s
+Result: 20
+Query took 2.722941166s
+Result: 20
+Query took 2.642665231s
+Result: 20
+Query took 2.681852423s
+Result: 20
+Query took 2.647058614s
+Result: 20
+Query took 2.679741151s
+Result: 20
+Query took 2.681717656s
+Result: 20
+Query took 2.632187049s
+Result: 20
+Query took 2.664827016s
+Result: 20
+Query took 2.63027025s
+Result: 20
+Query took 2.721953514s
+Result: 20
+Query took 2.65376367s
+Result: 20
+Query took 2.639054075s
+Result: 20
+Query took 2.598599789s
+Result: 20
+Query took 2.66727401s
+Result: 20
+Query took 2.637581812s
+Result: 20
+Query took 2.6953008s
+Result: 11
+Query took 2.676781986s
+Result: 20
+Query took 2.652209238s
+Result: 20
+Query took 2.709762592s
+Result: 20
+Query took 2.673957845s
+Result: 20
+Query took 2.712735885s
+Result: 20
+Query took 2.655138861s
+Result: 20
+Query took 2.653328835s
+Result: 20
+Query took 2.654491684s
+Result: 20
+Query took 2.65584857s
+Result: 20
+Query took 2.656886248s
+Result: 20
+Query took 2.658247748s
+Result: 20
+Query took 2.658750266s
+Result: 20
+Query took 2.660259403s
+Result: 20
+Query took 2.661244004s
+Result: 20
+Query took 2.59218035s
+Result: 20
+Query took 2.664136504s
+Result: 20
+Query took 2.591705052s
+Result: 20
+Query took 2.666307177s
+Result: 20
+Query took 2.66757158s
+Result: 20
+Query took 2.667994863s
+Result: 20
+Query took 2.59961838s
+Result: 20
+Query took 2.671793568s
+Result: 20
+Query took 2.597216327s
+Result: 20
+Query took 2.674880033s
+Result: 20
+Query took 2.67675601s
+Result: 20
+Query took 2.677951262s
+Result: 20
+Query took 2.606144941s
+Result: 20
+Query took 2.680505816s
+Result: 20
+Query took 2.681821596s
+Result: 20
+Query took 2.68354947s
+Result: 20
+Query took 2.683872962s
+Result: 20
+Query took 2.609260771s
+Result: 20
+Query took 2.687008696s
+Result: 20
+Query took 2.687694105s
+Result: 20
+Query took 2.61831986s
+Result: 20
+Query took 2.690114349s
+Result: 20
+Query took 2.689173826s
+Result: 20
+Query took 2.691799592s
+Result: 20
+Query took 2.693109312s
+Result: 20
+Query took 2.694264683s
+Result: 20
+Query took 2.695373262s
+Result: 20
+Query took 2.696344369s
+Result: 20
+Query took 2.698042296s
+Result: 20
+Query took 2.698505388s
+Result: 20
+Query took 2.699969443s
+Result: 20
+Query took 2.628010322s
+Result: 20
+Query took 2.702581446s
+Result: 20
+Query took 2.627232375s
+Result: 20
+Query took 2.704202352s
+Result: 18
+Query took 2.705502622s
+Result: 20
+Query took 2.706481374s
+Result: 20
+Query took 2.72938794s
+Result: 20
+Query took 2.725238973s
+Result: 20
+Query took 2.736664044s
+Result: 20
+Query took 2.72746257s
+Result: 20
+Query took 2.721626641s
+Result: 9
+Query took 2.672232926s
+Result: 20
+Query took 2.745973661s
+Result: 20
+Query took 2.778025115s
+Result: 20
+Query took 2.737720131s
+Result: 20
+Query took 2.714001757s
+Result: 20
+Query took 2.801318837s
+Result: 20
+Query took 2.716714611s
+Result: 20
+Query took 2.75470279s
+Result: 20
+Query took 2.782646103s
+Result: 20
+Query took 2.722006749s
+Result: 18
+Query took 2.780961608s
+Result: 20
+Query took 2.738856473s
+Result: 20
+Query took 2.783696166s
+Result: 20
+Query took 2.757528096s
+Result: 20
+Query took 2.790817674s
+Result: 20
+Query took 2.786677678s
+Result: 20
+Query took 2.78811089s
+Result: 20
+Query took 2.78944449s
+Result: 20
+Query took 2.794990598s
+Result: 20
+Query took 2.759771956s
+Result: 20
+Query took 2.761393241s
+Result: 20
+Query took 2.795373862s
+Result: 20
+Query took 2.801386694s
+Result: 20
+Query took 2.749234s
+Result: 20
+Query took 2.79894672s
+Result: 20
+Query took 2.768060739s
+Result: 13
+Query took 2.800247499s
+Result: 2
+Query took 2.769155608s
+Result: 20
+Query took 2.805997363s
+Result: 20
+Query took 2.806611221s
+Result: 20
+Query took 2.756344682s
+Result: 20
+Query took 2.805950288s
+Result: 20
+Query took 2.779884622s
+Result: 20
+Query took 2.76238426s
+Result: 20
+Query took 2.810308091s
+Result: 20
+Query took 2.783299598s
+Result: 20
+Query took 2.718937495s
+Result: 20
+Query took 2.782001088s
+Result: 20
+Query took 2.787498834s
+Result: 20
+Query took 2.819970132s
+Result: 20
+Query took 2.821185781s
+Result: 20
+Query took 2.827726036s
+Result: 20
+Query took 2.787653658s
+Result: 20
+Query took 2.825730663s
+Result: 20
+Query took 2.769913931s
+Result: 20
+Query took 2.795318117s
+Result: 20
+Query took 2.792014519s
+Result: 20
+Query took 2.79683845s
+Result: 20
+Query took 2.727088378s
+Result: 20
+Query took 2.836984877s
+Result: 20
+Query took 2.826344284s
+Result: 20
+Query took 2.787383161s
+Result: 20
+Query took 2.802392343s
+Result: 20
+Query took 2.829669503s
+Result: 20
+Query took 2.785899348s
+Result: 20
+Query took 2.838656161s
+Result: 20
+Query took 2.80663435s
+Result: 11
+Query took 2.804316702s
+Result: 20
+Query took 2.79484154s
+Result: 20
+Query took 2.809503782s
+Result: 20
+Query took 2.782774907s
+Result: 20
+Query took 2.746519188s
+Result: 20
+Query took 2.799110192s
+Result: 20
+Query took 2.806491432s
+Result: 20
+Query took 2.844096969s
+Result: 20
+Query took 2.811474538s
+Result: 20
+Query took 2.859942401s
+Result: 20
+Query took 2.810599086s
+Result: 20
+Query took 2.816359048s
+Result: 20
+Query took 2.792914122s
+Result: 20
+Query took 2.855634862s
+Result: 20
+Query took 2.812194342s
+Result: 20
+Query took 2.826301105s
+Result: 20
+Query took 2.889140139s
+Result: 20
+Total num of query 2000: started 2000 finished 2000 err 0 qps 687.363080 
+Total time took 2.90969644s

@@ -48,8 +48,10 @@ func timeTrack(start time.Time, name string) {
 	fmt.Printf("%s took %s\n", name, elapsed)
 }
 
-func queryES(query string, tag string) (elastigo.SearchResult, error) {
-	defer timeTrack(time.Now(), "Query")
+func queryES(query string, tag string, timing bool) (elastigo.SearchResult, error) {
+	if timing {
+		defer timeTrack(time.Now(), "Query")
+	}
 	c := elastigo.NewConn()
 	//c.Domain = "10.2.1.8"
 	//hosts := []string{"10.2.1.8"}
@@ -103,7 +105,7 @@ func getNames(num_res int) []string {
 	var values []string
 	var searchQuery = QueryString("*J*", "user", num_res)
 	fmt.Println(searchQuery)
-	response, err := queryES(searchQuery, "*J*") //, 50*time.Second /*timeout seconds*/)
+	response, err := queryES(searchQuery, "*J*", true) //, 50*time.Second /*timeout seconds*/)
 	if err != nil {
 		log.Fatalf("The search of photo id has failed:", err)
 	}
@@ -147,11 +149,10 @@ func blockingQueries(numQueries int) {
 		index := r.Intn(numQueries)
 		v := values[index]
 		var q = QueryString(v, "user", 20)
-		response, err := queryES(q, v)
-		fmt.Println("Result:", len(response.Hits.Hits))
-		if err != nil {
+		response, err := queryES(q, v, false)
+		if err != nil || len(response.Hits.Hits) <= 1 {
 			n_err += 1
-			fmt.Println("Error!!!!", err)
+			fmt.Println("Error!!!!", err, len(response.Hits.Hits))
 		} else {
 			n_done += 1
 		}
@@ -187,7 +188,7 @@ func manyQueries(numQueries int) {
 		go func(v string, c chan int) {
 			i_s = i_s + 1
 			var q = QueryString(v, "user", 20)
-			response, err := queryES(q, v) //, timeout_seconds) //2000*time.Millisecond)
+			response, err := queryES(q, v, true)
 			fmt.Println("Result:", len(response.Hits.Hits))
 			c <- 1
 			i_e = i_e + 1

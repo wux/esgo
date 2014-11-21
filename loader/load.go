@@ -13,10 +13,7 @@ import (
 	"time"
 )
 
-type Geopoint struct {
-	Lat float64 `json:lat`
-	Lon float64 `json:lon`
-}
+import _ "net/http/pprof"
 
 func QueryString(key, field string, limit int) string {
 	var searchQuery = `{
@@ -54,10 +51,12 @@ func queryES(query string, tag string, timing bool) (elastigo.SearchResult, erro
 	}
 	c := elastigo.NewConn()
 	//c.Domain = "10.2.1.8"
-	//hosts := []string{"10.2.1.8"}
-	hosts := []string{"10.2.20.6", "10.2.20.7", "10.2.1.6", "10.2.1.7", "10.2.1.8"}
+	hosts := []string{"10.2.1.8"}
+	//hosts := []string{"10.2.20.6", "10.2.20.7", "10.2.1.6", "10.2.1.7", "10.2.1.8"}
 	c.SetHosts(hosts)
-	return c.Search("tfotos", "", nil, query)
+	result, err := c.Search("tfotos", "", nil, query)
+	c.Close()
+	return result, err
 }
 
 func QueryWithTimeout(query string, tag string, timeout_seconds time.Duration) (
@@ -107,7 +106,7 @@ func getNames(num_res int) []string {
 	fmt.Println(searchQuery)
 	response, err := queryES(searchQuery, "*J*", true) //, 50*time.Second /*timeout seconds*/)
 	if err != nil {
-		log.Fatalf("The search of photo id has failed:", err)
+		log.Fatalf("The search of photo id has failed: %s", err)
 	}
 	fmt.Println(reflect.TypeOf(response))
 	fmt.Println("Number of search result:", len(response.Hits.Hits))
@@ -116,7 +115,7 @@ func getNames(num_res int) []string {
 		var value map[string]interface{}
 		err := json.Unmarshal([]byte(*v.Fields), &value)
 		if err != nil {
-			log.Fatalf("Failed to unmarshal", err)
+			log.Fatalf("Failed to unmarshal: %s", err)
 		}
 		vv := value["user"]
 		if string_s, ok := vv.([]interface{}); ok {
@@ -142,17 +141,20 @@ func blockingQueries(numQueries int) {
 	n_done := 0
 	// Typically a non-fixed seed should be used, such as time.Now().UnixNano().
 	// Using a fixed seed will produce the same output on every run.
-	r := rand.New(rand.NewSource(99))
+	//	r := rand.New(rand.NewSource(99))
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 
 	for {
 		n_sent += 1
 		index := r.Intn(numQueries)
 		v := values[index]
+
 		var q = QueryString(v, "user", 20)
 		response, err := queryES(q, v, false)
+
 		if err != nil || len(response.Hits.Hits) <= 1 {
 			n_err += 1
-			fmt.Println("Error!!!!", err, len(response.Hits.Hits))
+			fmt.Println("Error!!!!", err, len(response.Hits.Hits), q)
 		} else {
 			n_done += 1
 		}
@@ -223,6 +225,10 @@ func manyQueries(numQueries int) {
 func main() {
 	numQueries := flag.Int("num_query", 4900, "number of queris")
 	flag.Parse()
+
+	go func() {
+		log.Println(http.ListenAndServe("localhost:6060", nil))
+	}()
 
 	//manyQueries(*numQueries)
 	blockingQueries(*numQueries)
